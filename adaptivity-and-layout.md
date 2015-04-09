@@ -22,25 +22,25 @@ IOS 定义了两种尺寸类：常规和紧凑。常规尺寸类有着广阔的�
 
 竖直样式
 
-![](../Art/ipad_size_class_h_2x.png)
+![](images/ipad_size_class_h_2x.png)
 
 iPhone 的 显示环境会根据设备和方向的不同而变化。
 
-![](../Art/iphone02_size_class_v_2x.png)
+![](images/iphone02_size_class_v_2x.png)
 
 竖屏时，iPhone6 Plus 使用的是常规高度和紧凑宽度类型。
 
-![](../Art/iphone02_size_class_h_2x.png)
+![](images/iphone02_size_class_h_2x.png)
 
 横屏时，iPhone6 Plus 使用的是紧凑高度和常规宽度类型。
 
 所有其他的 iPhone 设备，包括 iPhone 6，使用相同模式的尺寸。
 
-![](../Art/iphone01_size_class_v_2x.png)
+![](images/iphone01_size_class_v_2x.png)
 
 竖屏时，iPhone 6，iPhone 5 和 iPhone 4S 使用的是紧凑宽度和常规高度。
 
-![](../Art/iphone01_size_class_h_2x.png)
+![](images/iphone01_size_class_h_2x.png)
 
 横屏时，这些设备在宽高上使用的都是紧凑类型。
 
@@ -66,11 +66,11 @@ iPhone 的 显示环境会根据设备和方向的不同而变化。
 
 **通过强调重要的内容和功能使用户能简单地注意到 app 的主要任务。**有一些很好的方法可以做到这个，在屏幕靠近上边和左边的位置放置重要的项目。
 
-![](../Art/focus_on_main_task_2x.png)
+![](images/focus_on_main_task_2x.png)
 
 **使用图标或字体的大小与位置来表现屏幕中元素的相对重要性。**大图标会首先吸引人的关注，所以大图标会比小图标显得更重要。更大的图标也意味着更好点击，这在 app 中是十分有用的，例如通话和计时，这使得用户即使在嘈杂的环境中也能关注到。
 
-![](../Art/phone_hangup_button_2x.png)
+![](images/phone_hangup_button_2x.png)
 
 **使用对齐使阅读更舒服，让分组和层次间更有秩序。**对齐能使 app 看起来整洁和有组织，并且这可以使用户在滑动浏览时能关注重点。不同信息的缩进和对齐可以使用户明白内容间的联系，也会让查找特点内容变得简单。
 
@@ -84,8 +84,8 @@ iPhone 的 显示环境会根据设备和方向的不同而变化。
 
 推荐样式
 
-![](../Art/interact_with_content_r_2x.png)
+![](images/interact_with_content_r_2x.png)
 
 不推荐样式
 
-![](../Art/interact_with_content_nr_2x.png)
+![](images/interact_with_content_nr_2x.png)
