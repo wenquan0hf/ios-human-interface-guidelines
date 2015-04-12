@@ -1,5 +1,5 @@
 - [待添加中文翻译 - UI Design Basics]
- - [待添加中文翻译 - Designing for iOS](designing-for-ios.md) zqvan
+ - [待添加中文翻译 - Designing for iOS](designing-for-ios.md) zqvan done
  - [待添加中文翻译 - iOS App Anatomy](ios-app-anatomy.md) liurui
  - [待添加中文翻译 - Adaptivity and Layout](adaptivity-and-layout.md) zhenglu done
  - [待添加中文翻译 - Starting and Stopping](starting-and-stopping.md) zhenglu
@@ -13,9 +13,9 @@
  - [待添加中文翻译 - Terminology and Wording](terminology-and-wording.md)lily
  - [待添加中文翻译 - Integrating with iOS](integrating-with-ios.md)lily
 - 待添加中文翻译 - Design Strategies
- - [待添加中文翻译 - Design Principles](design-principles.md) zqvan
- - [待添加中文翻译 - From Concept to Product](from-concept-to-product.md) zqvan
- - [待添加中文翻译 - Case Study: From Desktop to iOS](from-desktop-to-ios.md) zqvan
+ - [待添加中文翻译 - Design Principles](design-principles.md) zqvan done
+ - [待添加中文翻译 - From Concept to Product](from-concept-to-product.md) zqvan done
+ - [待添加中文翻译 - Case Study: From Desktop to iOS](from-desktop-to-ios.md) zqvan done
 - 待添加中文翻译 - iOS Technologies
  - [待添加中文翻译 - App Extensions](extensions.md)lily
  - [待添加中文翻译 - Notifications](notifications.md)lily
@@ -43,10 +43,10 @@
  - [待添加中文翻译 - Controls](controls.md) xinghao
  - [待添加中文翻译 - Temporary Views](temporary-views.md) liurui
 - 待添加中文翻译 - Icon and Image Design
- - [待添加中文翻译 - Icon and Image Sizes](icon-and-image-sizes.md) zqvan
- - [待添加中文翻译 - App Icon](app-icon.md) zqvan
- - [待添加中文翻译 - Launch Images](launch-images.md) zqvan
- - [待添加中文翻译 - Bar Button Icons](bar-button-icons.md) zqvan
- - [待添加中文翻译 - Newsstand Icons](newsstand-icons.md) zqvan
- - [待添加中文翻译 - Web Clip Icons](web-clip-icons.md) zqvan
- - [待添加中文翻译 - Creating Resizable Images](creating-resizable-images.md) zqvan
+ - [待添加中文翻译 - Icon and Image Sizes](icon-and-image-sizes.md) zqvan done
+ - [待添加中文翻译 - App Icon](app-icon.md) zqvan done
+ - [待添加中文翻译 - Launch Images](launch-images.md) zqvan done
+ - [待添加中文翻译 - Bar Button Icons](bar-button-icons.md) zqvan done
+ - [待添加中文翻译 - Newsstand Icons](newsstand-icons.md) zqvan done
+ - [待添加中文翻译 - Web Clip Icons](web-clip-icons.md) zqvan done
+ - [待添加中文翻译 - Creating Resizable Images](creating-resizable-images.md) zqvan done
