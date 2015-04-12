@@ -61,7 +61,7 @@ iPad 版的 Keynote 能自动侦测各种工具，并且根据用户的需求来
 
 每个页面显示了邮件应用功能的其中一个方面：账户列表、邮箱列表、邮件列表、邮件查看视图和编辑视图。在一个屏幕内，用户可以通过滑动操作查看完整的内容。
 
-![image](images/ds_mailscreens.jpg)
+![image](images/ds_mailscreens_2x.jpg)
 
 **简单可预见的导航**
 
