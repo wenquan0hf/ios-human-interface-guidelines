@@ -7,7 +7,7 @@
 表格 41-1 自定义图标和图片的尺寸（以像素为单位）
 
 | 属性 | iPhone 6 Plus (@3x)| iPhone 6 and iPhone 5 (@2x)| iPhone 4s (@2x) | iPad and iPad mini (@2x) | iPad 2 and iPad mini (@1x)|
-| -- |:---:|--|
+| --- |:---:|:---:|:---:|---|
 |应用图标（所有的应用都必须严格遵从）|180 x 180 | 120 x 120| 120 x 120| 152 x 152| 76 x 76|
 |App Store 中的应用图标（所有的应用都必须严格遵从）|1024 x 1024|1024 x 1024|1024 x 1024|1024 x 1024|1024 x 1024|
 |启动文件或图片（所有的应用都必须严格遵从）|使用启动文件参见[启动文件](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html#//apple_ref/doc/uid/TP40006556-CH22-SW1)|对于 iPhone 6， 使用启动文件参见[启动文件](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html#//apple_ref/doc/uid/TP40006556-CH22-SW1)；对于 iPhone 5， 640 x 1136|640 x 960|1536 x 2048 (人像) 2048 x 1536 (风景)|768 x 1024 (人像)|1024 x 768 (风景)|
