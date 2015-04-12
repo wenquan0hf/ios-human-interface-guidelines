@@ -47,4 +47,4 @@
 - 人像为 1242 x 2208 像素(@2x)
 - 风景为 2208 x 1242 像素(@2x)
 
-使用静态启动图像时，你可以在图像的命名中体现如果使用该图像。启动图像文件名的格式中应包含详细的有关设备、分辨率及适用情况的信息。学习如何正确地命名启动图像，参见 [App Launch(Default) Images](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ExpectedAppBehaviors/ExpectedAppBehaviors.html#//apple_ref/doc/uid/TP40007072-CH3-SW3)
+使用静态启动图像时，你可以在图像的命名中体现如果使用该图像。启动图像文件名的格式中应包含详细的有关设备、分辨率及适用情况的信息。学习如何正确地命名启动图像，参见 [App Launch(Default) Images](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ExpectedAppBehaviors/ExpectedAppBehaviors.html#//apple_ref/doc/uid/TP40007072-CH3-SW3)。
