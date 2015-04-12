@@ -7,7 +7,9 @@ iOS的用户界面中遍布着细微、精美的动画，它们使得应用的�
 * 帮助人们可视化其操作的结果
 
 
-![animation_intro.m4v](/images/animation_intro.m4v)
+<video crossorigin="anonymous"  loop  controls width="640" height="260">
+<source src="/images/animation_intro.m4v">
+</video>
 
 **谨慎地添加动画，特别是在不提供沉浸性体验感的应用中。**过度的动画会无端阻碍应用流畅性，降低性能，并且会分散用户的注意力。
 特别的是，要有目的和有限地使用运动效果和UI组件中的的动态行为，并确保对结果进行测试。如果使用得当，这些效果可以增加用户的理解度和享受度；过度地使用动画会使应用程序看起来迷惑，难以控制。
