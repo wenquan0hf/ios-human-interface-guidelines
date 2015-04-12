@@ -6,12 +6,12 @@
  - [待添加中文翻译 - Navigation](navigation.md) zhenglu
  - [待添加中文翻译 - Modal Contexts](modal-contexts.md) zhenglu
  - [待添加中文翻译 - Interactivity and Feedback](interactivity-and-feedback.md) zhenglu
- - [待添加中文翻译 - Animation](animation.md) lily
- - [待添加中文翻译 - Branding](branding.md)lily
- - [待添加中文翻译 - Color and Typography](color-and-typography.md)lily
+ - [待添加中文翻译 - Animation](animation.md) lily done
+ - [待添加中文翻译 - Branding](branding.md)lily done
+ - [待添加中文翻译 - Color and Typography](color-and-typography.md)lily done
  - [待添加中文翻译 - Icons and Graphics](icons-and-graphics.md)lily
- - [待添加中文翻译 - Terminology and Wording](terminology-and-wording.md)lily
- - [待添加中文翻译 - Integrating with iOS](integrating-with-ios.md)lily
+ - [待添加中文翻译 - Terminology and Wording](terminology-and-wording.md)lily done
+ - [待添加中文翻译 - Integrating with iOS](integrating-with-ios.md)lily done
 - 待添加中文翻译 - Design Strategies
  - [待添加中文翻译 - Design Principles](design-principles.md) zqvan done
  - [待添加中文翻译 - From Concept to Product](from-concept-to-product.md) zqvan done
