@@ -2,9 +2,9 @@
  - [待添加中文翻译 - Designing for iOS](designing-for-ios.md) zqvan done
  - [待添加中文翻译 - iOS App Anatomy](ios-app-anatomy.md) liurui
  - [待添加中文翻译 - Adaptivity and Layout](adaptivity-and-layout.md) zhenglu done
- - [待添加中文翻译 - Starting and Stopping](starting-and-stopping.md) zhenglu
+ - [待添加中文翻译 - Starting and Stopping](starting-and-stopping.md) zhenglu done
  - [待添加中文翻译 - Navigation](navigation.md) zhenglu
- - [待添加中文翻译 - Modal Contexts](modal-contexts.md) zhenglu
+ - [待添加中文翻译 - Modal Contexts](modal-contexts.md) zhenglu done
  - [待添加中文翻译 - Interactivity and Feedback](interactivity-and-feedback.md) zhenglu
  - [待添加中文翻译 - Animation](animation.md) lily done
  - [待添加中文翻译 - Branding](branding.md)lily done
@@ -20,15 +20,15 @@
  - [待添加中文翻译 - App Extensions](extensions.md)lily
  - [待添加中文翻译 - Notifications](notifications.md)lily
  - [待添加中文翻译 - Multitasking](multitasking.md)lily
- - [待添加中文翻译 - Social Media](social-media.md) zhenglu
- - [待添加中文翻译 - iCloud](icloud.md) zhenglu
- - [待添加中文翻译 - HealthKit](healthkit.md) zhenglu
- - [待添加中文翻译 - Passbook](passbook.md) zhenglu
+ - [待添加中文翻译 - Social Media](social-media.md) zhenglu done
+ - [待添加中文翻译 - iCloud](icloud.md) zhenglu done
+ - [待添加中文翻译 - HealthKit](healthkit.md) zhenglu done
+ - [待添加中文翻译 - Passbook](passbook.md) zhenglu done
  - [待添加中文翻译 - Apple Pay](apple-pay.md) liurui
- - [待添加中文翻译 - In-App Purchase](in-app-purchase.md) zhenglu
- - [待添加中文翻译 - Game Center](game-center.md) zhenglu
+ - [待添加中文翻译 - In-App Purchase](in-app-purchase.md) zhenglu done
+ - [待添加中文翻译 - Game Center](game-center.md) zhenglu done
  - [待添加中文翻译 - iAd Rich Media Ads](iad-rich-media-ads.md) hanbing
- - [待添加中文翻译 - AirPrint](airprint.md) zhenglu
+ - [待添加中文翻译 - AirPrint](airprint.md) zhenglu done
  - [待添加中文翻译 - Accessing User Data](accessing-user-data.md) hanbing
  - [待添加中文翻译 - Quick Look](quick-look.md) hanbing
  - [待添加中文翻译 - Sound](sound.md) hanbing
