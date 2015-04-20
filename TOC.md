@@ -3,9 +3,9 @@
  - [待添加中文翻译 - iOS App Anatomy](ios-app-anatomy.md) liurui
  - [待添加中文翻译 - Adaptivity and Layout](adaptivity-and-layout.md) zhenglu done
  - [待添加中文翻译 - Starting and Stopping](starting-and-stopping.md) zhenglu done
- - [待添加中文翻译 - Navigation](navigation.md) zhenglu
+ - [待添加中文翻译 - Navigation](navigation.md) zhenglu done
  - [待添加中文翻译 - Modal Contexts](modal-contexts.md) zhenglu done
- - [待添加中文翻译 - Interactivity and Feedback](interactivity-and-feedback.md) zhenglu
+ - [待添加中文翻译 - Interactivity and Feedback](interactivity-and-feedback.md) zhenglu done
  - [待添加中文翻译 - Animation](animation.md) lily done
  - [待添加中文翻译 - Branding](branding.md)lily done
  - [待添加中文翻译 - Color and Typography](color-and-typography.md)lily done
