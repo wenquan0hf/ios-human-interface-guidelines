@@ -9,7 +9,7 @@
  - [待添加中文翻译 - Animation](animation.md) lily done
  - [待添加中文翻译 - Branding](branding.md)lily done
  - [待添加中文翻译 - Color and Typography](color-and-typography.md)lily done
- - [待添加中文翻译 - Icons and Graphics](icons-and-graphics.md)lily
+ - [待添加中文翻译 - Icons and Graphics](icons-and-graphics.md)lily done
  - [待添加中文翻译 - Terminology and Wording](terminology-and-wording.md)lily done
  - [待添加中文翻译 - Integrating with iOS](integrating-with-ios.md)lily done
 - 待添加中文翻译 - Design Strategies
@@ -17,31 +17,31 @@
  - [待添加中文翻译 - From Concept to Product](from-concept-to-product.md) zqvan done
  - [待添加中文翻译 - Case Study: From Desktop to iOS](from-desktop-to-ios.md) zqvan done
 - 待添加中文翻译 - iOS Technologies
- - [待添加中文翻译 - App Extensions](extensions.md)lily
- - [待添加中文翻译 - Notifications](notifications.md)lily
- - [待添加中文翻译 - Multitasking](multitasking.md)lily
+ - [待添加中文翻译 - App Extensions](extensions.md)lily done
+ - [待添加中文翻译 - Notifications](notifications.md)lily done
+ - [待添加中文翻译 - Multitasking](multitasking.md)lily done
  - [待添加中文翻译 - Social Media](social-media.md) zhenglu done
  - [待添加中文翻译 - iCloud](icloud.md) zhenglu done
  - [待添加中文翻译 - HealthKit](healthkit.md) zhenglu done
  - [待添加中文翻译 - Passbook](passbook.md) zhenglu done
- - [待添加中文翻译 - Apple Pay](apple-pay.md) liurui
+ - [待添加中文翻译 - Apple Pay](apple-pay.md) liurui done
  - [待添加中文翻译 - In-App Purchase](in-app-purchase.md) zhenglu done
  - [待添加中文翻译 - Game Center](game-center.md) zhenglu done
- - [待添加中文翻译 - iAd Rich Media Ads](iad-rich-media-ads.md) hanbing
+ - [待添加中文翻译 - iAd Rich Media Ads](iad-rich-media-ads.md) hanbing done
  - [待添加中文翻译 - AirPrint](airprint.md) zhenglu done
- - [待添加中文翻译 - Accessing User Data](accessing-user-data.md) hanbing
- - [待添加中文翻译 - Quick Look](quick-look.md) hanbing
- - [待添加中文翻译 - Sound](sound.md) hanbing
- - [待添加中文翻译 - VoiceOver](voiceover.md) hanbing
- - [待添加中文翻译 - Routing](routing.md) hanbing
- - [待添加中文翻译 - Edit Menu](edit-menu.md) hanbing
- - [待添加中文翻译 - Undo and Redo](undo-and-redo.md) hanbing
- - [待添加中文翻译 - Keyboards and Input Views](keyboards-and-input-views.md) hanbing
+ - [待添加中文翻译 - Accessing User Data](accessing-user-data.md) hanbing done
+ - [待添加中文翻译 - Quick Look](quick-look.md) hanbing done
+ - [待添加中文翻译 - Sound](sound.md) hanbing done
+ - [待添加中文翻译 - VoiceOver](voiceover.md) hanbing done
+ - [待添加中文翻译 - Routing](routing.md) hanbing done
+ - [待添加中文翻译 - Edit Menu](edit-menu.md) hanbing done
+ - [待添加中文翻译 - Undo and Redo](undo-and-redo.md) hanbing done
+ - [待添加中文翻译 - Keyboards and Input Views](keyboards-and-input-views.md) hanbing done
 - 待添加中文翻译 - UI Elements
- - [待添加中文翻译 - Bars](bars.md)liurui
- - [待添加中文翻译 - Content Views](content-views.md) xinghao
- - [待添加中文翻译 - Controls](controls.md) xinghao
- - [待添加中文翻译 - Temporary Views](temporary-views.md) liurui
+ - [待添加中文翻译 - Bars](bars.md)liurui done
+ - [待添加中文翻译 - Content Views](content-views.md) xinghao done
+ - [待添加中文翻译 - Controls](controls.md) xinghao done
+ - [待添加中文翻译 - Temporary Views](temporary-views.md) liurui  done
 - 待添加中文翻译 - Icon and Image Design
  - [待添加中文翻译 - Icon and Image Sizes](icon-and-image-sizes.md) zqvan done
  - [待添加中文翻译 - App Icon](app-icon.md) zqvan done
