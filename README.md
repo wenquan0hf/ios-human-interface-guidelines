@@ -1,20 +1,20 @@
-# iOS Human Interface Guidelines
+# iOS 设计指南（iOS Human Interface Guidelines 中文版）
 
 官方英文原版：   
 https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/
 
-## 目的
+## iOS参考材料
 
-翻译官方文档，目录见文件 [TOC.md](TOC.md)
+### APP素材应用
 
-## 操作示例
+ [APP素材引用](http://ui4app.com/)
 
-https://github.com/jikexueyuanwiki/guide
+### iOS 8 人机界面指南
+ [iOS 8 人机界面指南](http://isux.tencent.com/ios8-human-interface-guidelines.html/)
+   
+### 非官方 iOS 设计指南
+ [非官方 iOS 设计指南](http://www.cocoachina.com/design/20141117/10233.html)
+   
 
-## 如何添加图片
-
-前提：官网上的所有图片都已经下载下来放入「images」文件夹，图片的文件名没做任何修改。
-
-1、请引用「images」文件夹中的图片，不要直接引用官方上的图片链接；    
-2、引用「images」文件夹时，请使用相对文件路径。
+ 
 
