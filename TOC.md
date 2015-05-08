@@ -1,52 +1,52 @@
-- [待添加中文翻译 - UI Design Basics]
- - [待添加中文翻译 - Designing for iOS](designing-for-ios.md) zqvan done
- - [待添加中文翻译 - iOS App Anatomy](ios-app-anatomy.md) liurui
- - [待添加中文翻译 - Adaptivity and Layout](adaptivity-and-layout.md) zhenglu done
- - [待添加中文翻译 - Starting and Stopping](starting-and-stopping.md) zhenglu done
- - [待添加中文翻译 - Navigation](navigation.md) zhenglu done
- - [待添加中文翻译 - Modal Contexts](modal-contexts.md) zhenglu done
- - [待添加中文翻译 - Interactivity and Feedback](interactivity-and-feedback.md) zhenglu done
- - [待添加中文翻译 - Animation](animation.md) lily done
- - [待添加中文翻译 - Branding](branding.md)lily done
- - [待添加中文翻译 - Color and Typography](color-and-typography.md)lily done
- - [待添加中文翻译 - Icons and Graphics](icons-and-graphics.md)lily done
- - [待添加中文翻译 - Terminology and Wording](terminology-and-wording.md)lily done
- - [待添加中文翻译 - Integrating with iOS](integrating-with-ios.md)lily done
-- 待添加中文翻译 - Design Strategies
- - [待添加中文翻译 - Design Principles](design-principles.md) zqvan done
- - [待添加中文翻译 - From Concept to Product](from-concept-to-product.md) zqvan done
- - [待添加中文翻译 - Case Study: From Desktop to iOS](from-desktop-to-ios.md) zqvan done
-- 待添加中文翻译 - iOS Technologies
- - [待添加中文翻译 - App Extensions](extensions.md)lily done
- - [待添加中文翻译 - Notifications](notifications.md)lily done
- - [待添加中文翻译 - Multitasking](multitasking.md)lily done
- - [待添加中文翻译 - Social Media](social-media.md) zhenglu done
- - [待添加中文翻译 - iCloud](icloud.md) zhenglu done
- - [待添加中文翻译 - HealthKit](healthkit.md) zhenglu done
- - [待添加中文翻译 - Passbook](passbook.md) zhenglu done
- - [待添加中文翻译 - Apple Pay](apple-pay.md) liurui done
- - [待添加中文翻译 - In-App Purchase](in-app-purchase.md) zhenglu done
- - [待添加中文翻译 - Game Center](game-center.md) zhenglu done
- - [待添加中文翻译 - iAd Rich Media Ads](iad-rich-media-ads.md) hanbing done
- - [待添加中文翻译 - AirPrint](airprint.md) zhenglu done
- - [待添加中文翻译 - Accessing User Data](accessing-user-data.md) hanbing done
- - [待添加中文翻译 - Quick Look](quick-look.md) hanbing done
- - [待添加中文翻译 - Sound](sound.md) hanbing done
- - [待添加中文翻译 - VoiceOver](voiceover.md) hanbing done
- - [待添加中文翻译 - Routing](routing.md) hanbing done
- - [待添加中文翻译 - Edit Menu](edit-menu.md) hanbing done
- - [待添加中文翻译 - Undo and Redo](undo-and-redo.md) hanbing done
- - [待添加中文翻译 - Keyboards and Input Views](keyboards-and-input-views.md) hanbing done
-- 待添加中文翻译 - UI Elements
- - [待添加中文翻译 - Bars](bars.md)liurui done
- - [待添加中文翻译 - Content Views](content-views.md) xinghao done
- - [待添加中文翻译 - Controls](controls.md) xinghao done
- - [待添加中文翻译 - Temporary Views](temporary-views.md) liurui  done
-- 待添加中文翻译 - Icon and Image Design
- - [待添加中文翻译 - Icon and Image Sizes](icon-and-image-sizes.md) zqvan done
- - [待添加中文翻译 - App Icon](app-icon.md) zqvan done
- - [待添加中文翻译 - Launch Images](launch-images.md) zqvan done
- - [待添加中文翻译 - Bar Button Icons](bar-button-icons.md) zqvan done
- - [待添加中文翻译 - Newsstand Icons](newsstand-icons.md) zqvan done
- - [待添加中文翻译 - Web Clip Icons](web-clip-icons.md) zqvan done
- - [待添加中文翻译 - Creating Resizable Images](creating-resizable-images.md) zqvan done
+- UI 设计基础
+ - [为 iOS 而设计](designing-for-ios.md)
+ - [iOS 应用解析](ios-app-anatomy.md) 
+ - [适应性和布局](adaptivity-and-layout.md)
+ - [启动和终止 ](starting-and-stopping.md) 
+ - [导航](navigation.md) 
+ - [模态情景](modal-contexts.md) 
+ - [交互与反馈](interactivity-and-feedback.md)
+ - [动画](animation.md) 
+ - [品牌推广](branding.md)
+ - [色彩和排版](color-and-typography.md)
+ - [标志与图形](icons-and-graphics.md)
+ - [术语和措辞](terminology-and-wording.md)
+ - [与 iOS 一体化](integrating-with-ios.md)
+- 设计策略
+ - [设计原则](design-principles.md)
+ - [从概念到产品](from-concept-to-product.md) 
+ - [案例学习：从桌面到 iOS ](from-desktop-to-ios.md)
+- iOS 技术
+ - [应用拓展](extensions.md)
+ - [通知](notifications.md)
+ - [多任务处理](multitasking.md)
+ - [社交媒体](social-media.md)
+ - [iCloud](icloud.md) 
+ - [健康组件](healthkit.md) 
+ - [电子钱包](passbook.md) 
+ - [苹果支付](apple-pay.md) 
+ - [应用购买](in-app-purchase.md) 
+ - [游戏中心](game-center.md) 
+ - [iAd 富媒体广告](iad-rich-media-ads.md) 
+ - [云打印](airprint.md) 
+ - [访问用户数据](accessing-user-data.md) 
+ - [快速查看](quick-look.md) 
+ - [声音](sound.md) 
+ - [语音辅助](voiceover.md) 
+ - [路线选择](routing.md)
+ - [编辑菜单](edit-menu.md)
+ - [撤销与重做](undo-and-redo.md) 
+ - [键盘和输入页面](keyboards-and-input-views.md) 
+- UI 元素
+ - [栏](bars.md)
+ - [内容视图](content-views.md) 
+ - [控件](controls.md) 
+ - [临时视图](temporary-views.md) 
+- 图形设计
+ - [图标与图片尺寸](icon-and-image-sizes.md) 
+ - [应用图标](app-icon.md)
+ - [启动画面](launch-images.md) 
+ - [栏按钮图标](bar-button-icons.md) 
+ - [报刊杂志图标](newsstand-icons.md) 
+ - [网页剪藏图标](web-clip-icons.md) 
+ - [创建尺寸可调的图片](creating-resizable-images.md) 
