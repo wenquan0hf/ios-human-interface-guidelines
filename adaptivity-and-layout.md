@@ -8,7 +8,7 @@ IOS 定义了两种尺寸类：常规和紧凑。常规尺寸类有着广阔的�
 
 当一个显示环境改变时，IOS 可以自动改变成不同的布局。例如，当竖直尺寸从紧凑变为常规时，导航栏和工具栏会自动变长。
 
-当你可以做到依靠尺寸类改变布局时，你的 app 会在不同的显示环境中有出色的表现。想学习如何在界面开发中使用尺寸类，请点击[Size Classes Design Help](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/_index.html#//apple_ref/doc/uid/TP40014436)。
+当你可以做到依靠尺寸类改变布局时，你的 app 会在不同的显示环境中有出色的表现。
 
 >**提示**
 >在一种尺寸类中，你可以继续使用自动布局进行小的布局调整，例如拉伸和固定内容。
