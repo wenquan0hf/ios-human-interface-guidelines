@@ -5,17 +5,8 @@ https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/
 
 ## iOS参考材料
 
-### APP素材应用
-
- [APP素材引用](http://ui4app.com/)
-
-### iOS 8 人机界面指南
- [iOS 8 人机界面指南](http://isux.tencent.com/ios8-human-interface-guidelines.html/)
-   
-### 非官方 iOS 设计指南
- [非官方 iOS 设计指南](http://www.cocoachina.com/design/20141117/10233.html)
-   
 ### 界面开发使用尺寸
 请点击[Size Classes Design Help](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/_index.html#//apple_ref/doc/uid/TP40014436)。
  
-
+### 关于如何开发一个能流畅运行的 app
+请点击 [Use Memory Efficiently](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/PerformanceTips/PerformanceTips.html#//apple_ref/doc/uid/TP40007072-CH7-SW8)
