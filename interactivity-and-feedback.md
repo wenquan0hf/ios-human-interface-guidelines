@@ -1,38 +1,22 @@
-# 交互与反馈 (Interactivity and Feedback)
+# 交互与反馈 
 
 ## 用户知道标准手势
 
 用户使用点击、拖拽、捏合等手势和 app、ios 设备互动，手势会令用户更贴近设备，并且能让用户直观地感受到屏幕上的物体。人们希望所有 app 中的手势都是相同用法的。
 
-<object class="svg-animation" data="Art/tap.svg" type="image/svg+xml" width="128" height="128"></object>
-
 **点击。**按压或选择一个控件或选项。
-
-<object class="svg-animation" data="Art/drag.svg" type="image/svg+xml" width="128" height="128"></object>
 
 **拖拽。**移动一个元素。
 
-<object class="svg-animation" data="Art/flick.svg" type="image/svg+xml" width="128" height="128"></object>
-
 **滑动。**快速滑动屏幕。
-
-<object class="svg-animation" data="Art/swipe.svg" type="image/svg+xml" width="128" height="128"></object>
 
 **扫。**使用一个手指扫动屏幕，可以回到之前的屏幕、可以拉出隐藏视图，也可以滑出删除按钮。使用四个手指，可以在 ipad 上滑动选择 app。
 
-<object class="svg-animation" data="Art/double-tap.svg" type="image/svg+xml" width="128" height="128"></object>
-
 **双击。**放大内容或图片、使内容居中，也可以恢复缩小的内容。
-
-<object class="svg-animation" data="Art/pinch.svg" type="image/svg+xml" width="128" height="128"></object>
 
 **捏合。**向外捏合用来放大；向内捏合用来缩小。
 
-<object class="svg-animation" data="Art/touch_hold.svg" type="image/svg+xml" width="128" height="128"></object>
-
 **长按。**当编辑文本时，用来定为光标的位置。
-
-<object class="svg-animation" data="Art/shake.svg" type="image/svg+xml" width="128" height="128"></object>
 
 **摇晃。**撤销操作。
 
@@ -87,7 +71,7 @@
 
 ![](images/mail_update_2x.png)
 
-**避免不必要的警告。**警告框是一个重要的反馈机制，但它应该只能用于传递重要且理论上可行的信息。如果用户看了太多不重要的警告，他们很快会忽视所有警告。想了解更多关于警告框，请点击[Alert](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Alerts.html#//apple_ref/doc/uid/TP40006556-CH14-SW2)
+**避免不必要的警告。**警告框是一个重要的反馈机制，但它应该只能用于传递重要且理论上可行的信息。如果用户看了太多不重要的警告，他们很快会忽视所有警告。
 
 ## 简化输入信息的方式
 
