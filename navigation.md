@@ -9,20 +9,10 @@
 - 内容或体验驱动。
 
 在一个分层式的 app 中，用户通过单一的选择来到达他们想去的位置。如果用户想去另一个地方，他们退回几步，或者从头开始，通过选择不同的选项。“设置”和“邮件”应用就是分层样式很好的例子。
-
-<html>
-<head>
-</head>
-<body>
-<table>22222
- <video src="images/navigation_flat.m4v"></video>
- </table>
- </body>
- </html>
  
 在一个扁平结构的 app 中，用户可以直接从一个基本分类导航至另一个，因为所有的分类都列在主屏幕上。“音乐”和“App Store”是扁平结构的例子。
 
-<video src="images/navigation_flat.m4v"></video>
+![例子](images/navigation_flat.m4v)
 
 在内容或体验驱动的结构中，导航是通过内容或用户体验进行的。例如，用户通过翻动页面或选择目录中的一页来看一本书；在游戏中，导航在很大程度上取决于用户体验。
 
