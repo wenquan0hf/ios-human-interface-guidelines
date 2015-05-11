@@ -10,3 +10,6 @@ https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/
  
 ### 关于如何开发一个能流畅运行的 app
 请点击 [Use Memory Efficiently](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/PerformanceTips/PerformanceTips.html#//apple_ref/doc/uid/TP40007072-CH7-SW8)
+
+### 了解更多关于主题的设计
+请看[IOS设计  Design for iOS](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)）
