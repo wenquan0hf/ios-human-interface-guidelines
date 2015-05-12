@@ -3,7 +3,9 @@
 ## 活动菜单
 
 每个活动菜单表示一个系统提供的服务或定制服务——它可以通过访问活动视图控制器(Activity view controller)来作用于某些特定的内容。
- ![](activity_2x.png)
+
+ ![](images/activity_2x.png)
+ 
 >提示   
 想要了解如何在代码中定义标签栏，请参考[UIActivity Class Reference](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/check_2x.png).
 想要了解如何把一个活动视图控制器添加到应用程序中，请参考[Activity View Controller](content-views.md).
@@ -14,6 +16,8 @@
 -	是指一种代表当前应用所支持服务的对象。
 -	由一种类似于按钮的图标来表示。  
  
+ ![](images/activity_view_2x.png)
+
 用户通常通过点击控制器中的活动图标来启动某样活动。点击之后该项服务通常会立刻执行，除非这项服务过于复杂，此时系统将会进一步索取更多的信息之后才会为用户执行该服务。
 使用活动菜单来让用户执行你的应用所提供的服务。请注意，iOS 本身提供了若干内置的服务和应用扩展，如打印，转发到 Twitter，发送信息和 Airplay 等等，你不需要再另外创建它们。
 为你应用的各种服务设计一套精简的模版图标(Template image)。模板是 iOS 使用的一种形象，来创建最后用户看到的图标。如果想制作出好看的模版图标，设计的时候可以遵循以下原则：
@@ -28,6 +32,8 @@
 ## 活动视图控制器
 
 活动视图控制器是一个临时视图，当中罗列了一系列可以针对页面特定内容的系统服务和自定义服务。  
+
+ ![](images/activity_view_controller_2x.png)
 
 >提示  
 想要了解如何在代码中定义活动视图控制器，请参考[UIActivityView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityViewController_Class/index.html#//apple_ref/doc/uid/TP40011976).想要知道怎么设计一个提供用户服务的活动菜单，请参考[Activity](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityViewController_Class/index.html#//apple_ref/doc/uid/TP40011976). 
@@ -49,6 +55,8 @@
 ## 集合视图
 
 集合视图用于管理一系列有序的项，并以一种自定义的布局来呈现它们。  
+
+ ![](images/collection_view_2x.png)
  
 >提示   
 想要了解如何在代码中定义集合视图，请参考[Collection View Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012334).  
@@ -100,6 +108,8 @@
 
 地图视图呈现地理数据，同时支持系统内置地图应用的大部分功能（如下图所示）。
 
+![](images/map_view_photos_2x.png)
+
 >提示   
 想要了解如何在代码中定义地图视图，请参考[Map Kit Framework Reference](https://developer.apple.com/library/ios/documentation/MapKit/Reference/MapKit_Framework_Reference/index.html#//apple_ref/doc/uid/TP40008210).
   
@@ -121,6 +131,8 @@
 
 页面视图控制器通过滚动(Scrolling)或翻页 (Page-curl transition style)来处理长度超过一页的内容。
  
+ ![](images/page_view_controller_2x.png)
+ 
 >提示   
 想要了解如何在代码中定义页面视图控制器，请参考[Page View Controller](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/PageViewControllers.html#//apple_ref/doc/uid/TP40011313-CH4).
 页面视图控制器: 
@@ -136,6 +148,8 @@
 ## 弹出框
 
 弹出框就是一个当你点击某一按钮在屏幕上出现的瞬态区域。
+ 
+ ![](images/popover_2x.png)
  
 >提示   
 在 ios8 和后续版本中，你可以使用[UIPopoverPresentationController](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPopoverPresentationController_class/index.html#//apple_ref/occ/cl/UIPopoverPresentationController)来呈现出弹出框（popover）。UIPopoverPresentationController定义一个代表让你的popover的内容可以适配当先屏幕环境。举个例子，在通常的水平环境下，你的内容可以在popover中滚动显示；而在水平紧凑环境下，你的内容可以完全呈现在屏幕上。
@@ -179,6 +193,8 @@
 
 滚动视图方便用户浏览尺寸超越滚动视图边界的图片（下图中地球的图片无论是长度还是宽度都超过了）。
  
+ ![](images/scroll_view_2x.png)
+ 
 >提示   
 想要了解如何在代码中定义滚动视图，请参考[Scroll Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UIScrollView.html#//apple_ref/doc/uid/TP40012857-UIScrollView)。
   
@@ -198,6 +214,8 @@
 ##分离视图控制器 
 
 分离视图控制器是一个全屏的视图控制器，它管理着两级视图。
+ 
+ ![](images/split_view_2x.png)
  
 >提示   
 每个子视图控制器负责管理一个窗格的显示。拆分视图控制器本身提出了这些子视图控制器和管理过渡之间的不同取向的转变。要了解更多关于在你的代码中定义一个拆分视图控制器的内容，请参考[UISplitViewController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISplitViewController_class/index.html#//apple_ref/doc/uid/TP40009277) 和 [Split View Controllers](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/SplitViewControllers.html#//apple_ref/doc/uid/TP40011313-CH7).
@@ -231,31 +249,38 @@
 
 表格视图以单列多行的形式来展示数据。
  
+ ![](images/plain_table_2x.png)
+ 
 >提示   
 想要了解如何在代码中定义表格视图，请参考[Tabel View Programming Guide for the iOS](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/TableViewStyles/TableViewCharacteristics.html#//apple_ref/doc/uid/TP40007451)以及[Table Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UITableView.html#//apple_ref/doc/uid/TP40012857-UITableView).
   
 表格视图: 
 
 -	表格视图中的数据是以单列的方式展示的，因此也很容易将它们分段或者分组。 
-- 提供一个控制钮让用户可以添加、移除列，选择几个列，看到有关列项目的更多信息，或者显示另一个表格视图。  
+- 提供一个控制钮让用户可以添加、移除列，选择几个列，看到有关列项目的更多信息，或者显示另一个表格视图。 
+- 
 iOS定义了两种表格样式:
+
 平铺型（Plain）表格可被分为若干带标签的段落，表格右侧可能会出现垂直的表格索引。每行开头可以有页眉，尾部可以有页脚（也可以没有）。
-![]()
+![](images/simple_list_2x.png)
    
 分组型（Grouped）中至少含有一组列表，而每一组中至少包含一项内容。分组可以有页眉和页脚。与平铺型不同，分组型表格没有索引。
+
+![](images/grouped_list_2x.png)
+
 在这两种风格中，当用户点击一个可选择的项目时，表格行高亮显示。如果选择了一个行，跳转到一个新的屏幕，被选的行高亮显示作为新屏幕的出现提示。当用户返回前一个屏幕时，最初选定的行，再变成高亮，简要地提醒用户这是之前选择的内容。（这并不突出）。
   
 iOS提供了若干表格视图元素(table-view elements)来扩展表格视图的功能。除了特别标明外，这些元素只适用于表格视图。
 
 |视图元素 |	名称 |	含义 |
 |:-------|:-------|:---|
-|![](image/check_2x.png)	|对号 |	指示这行被选中。 |
-|![](image/disclosure_indicator_2x.png)	|指示符号 |显示另一个与这行相关的表。 |
-|![](image/detail_disclosure_2x.png) 	|细节提示按钮 |	在新视图中显示与这行有关的更多细节（了解如何运用这个元素，查看[popover](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ContentViews.html#//apple_ref/doc/uid/TP40006556-CH13-SW19)） |
-|![](image/row_reorder_2x.png) 	|行排序 |	指示该行可以在表中被拖拽到其他位置。 |
-| ![](image/row_insert_2x.png)	|增加行 |	给表加一个新的行。 |
-| ![](image/delete_control_2x.png)	|删除按钮控件 |	在编辑状态下，显示和隐藏删除一行”按钮。|
-| ![](image/delete_button_2x.png)	|删除按钮	 |	删除行。 |
+|![](images/check_2x.png)	|对号 |	指示这行被选中。 |
+|![](images/disclosure_indicator_2x.png)	|指示符号 |显示另一个与这行相关的表。 |
+|![](images/detail_disclosure_2x.png) 	|细节提示按钮 |	在新视图中显示与这行有关的更多细节（了解如何运用这个元素，查看[popover](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ContentViews.html#//apple_ref/doc/uid/TP40006556-CH13-SW19)） |
+|![](images/row_reorder_2x.png) 	|行排序 |	指示该行可以在表中被拖拽到其他位置。 |
+| ![](images/row_insert_2x.png)	|增加行 |	给表加一个新的行。 |
+| ![](images/delete_control_2x.png)	|删除按钮控件 |	在编辑状态下，显示和隐藏删除一行”按钮。|
+| ![](images/delete_button_2x.png)	|删除按钮	 |	删除行。 |
   
 除了以上表格中列举的元素外，iOS定义了刷新控件，让用户可以刷新当前的表格内容。想要了解更多关于刷新控件的用法，可以参考[Refresh Control](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW131). 
 iOS定义了在平铺型表格和分组型表格中最常用到的四种单元格布局样式。每种单元格样式都有最适合展示的信息类型。
@@ -266,16 +291,25 @@ iOS定义了在平铺型表格和分组型表格中最常用到的四种单元�
 默认型（Default）([UITableViewCellStyleDefault](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleDefault))
 默认型样式包括左侧的图标（可选），和图标右边左对齐的文字标题。
 默认型样式适合展示一系列无须通过附加信息便可以区分的项。
+
+![](images/default_cell_2x.png)
   
 副标题型（Subtitled）([UITableViewCellStyleSubtitle](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleSubtitle))
 副标题型包括左侧图标（可选），图标右边左对齐展示的文字标题，以及在标题下方同样左对齐展示的副标题。
 左对齐的文本标签让用户可以更快速地扫视表格。这种样式适用于列表各项较为相似的情况，用户可以通过副标题中的详细信息来区分列表中的各项。
-   
+
+![](images/subtitle_cell_2x.png)
+
 Value 1 ([UITableViewCellStyleValue1](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleValue1))
 在Value 1样式下，标题左对齐，副标题用较细的字体右对齐。
+
+![](images/value_1_cell_2x.png)
+
 Value 2 ([UITableViewCellStyleValue2](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleValue2))
 在Value 2样式里，蓝色标题右对齐，副标题左对齐，混排在同一行中。这种样式通常不包含图片。
 Value 2的布局中，文本和副标题中间的垂直间距会让用户专注于副标题的第一个单词。
+
+ ![](images/value_2_cell_2x.png)
  
 >提示  
 以上四种单元格样式均支持添加表格视图元素，如勾选或展开标志。添加这些元素会缩小标题以及副标题单元格的可用宽度。
@@ -303,6 +337,8 @@ Value 2的布局中，文本和副标题中间的垂直间距会让用户专注�
 ## 文本视图 
 
 文本视图可以接收和展示多行文本。
+
+![](images/text_view_2x.png)
  
 >提示  
 想了解如何在代码中定义文本视图，参考[Text Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UITextView.html#//apple_ref/doc/uid/TP40012857-UITextView).
@@ -321,6 +357,8 @@ iOS提供了各种不同的键盘类型，以便用户输入不同类型的文�
 ## 网络视图
 
 网络视图是一个可以展示丰富的HTML内容的区域。（下图是iPhone自带的邮件应用，网络视图指的是下图中导航栏和标签栏中间的区域）
+ 
+ ![](images/web_view_2x.png)
  
 >提示  
 想要了解如何在代码中定义网络视图，请参考[Web Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UIWebView.html#//apple_ref/doc/uid/TP40012857-UIWebView).
