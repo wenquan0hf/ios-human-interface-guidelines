@@ -117,8 +117,8 @@
 在该应用中，音效会在很大程度上提升用户体验，但对于主任务并没有那么重要。而且，用户可能会希望能在玩游戏时静音或听到他们媒体库中的歌曲而不是游戏配乐。
 
 最好的策略是在你的应用启动时确定用户是否在收听其他音频。不要要求用户选择他们是要收听其他音频还是你游戏的音效。
-相反，应该使用音频会话功能中的 [AudioSessionGetProperty](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/AudioSessionServicesReference/index.html#//apple_ref/c/func/AudioSessionGetProperty) 
-来询问 [kAudioSessionProperty_OtherAudioIsPlaying](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/AudioSessionServicesReference/index.html#//apple_ref/c/econst/kAudioSessionProperty_OtherAudioIsPlaying) 属性的状态。
+相反，应该使用音频会话功能中的 AudioSessionGetProperty 
+来询问 kAudioSessionProperty_OtherAudioIsPlaying 属性的状态。
 依据所询问的答案，你可以选择环境或是个人环境 category （这两种 category 允许用户玩游戏时静音）：
 
 -	如果用户正在听其他音频，你应该假设他们想要继续听并且不想被强迫收听游戏音效。
@@ -133,8 +133,8 @@
 
 在该应用中，无论应用是否是在后台运行，语音导航指示都是主要任务。基于这一原因，你最好使用播放 category ，它允许你在设备被锁定、静音或是在后台运行时你的音频仍可以播放。
 
-你可以通过添加 [kAudioSessionProperty_OverrideCategoryMixWithOthers](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/AudioSessionServicesReference/index.html#//apple_ref/c/econst/kAudioSessionProperty_OverrideCategoryMixWithOthers) 属性来实现人们在使用你的应用时仍可以收听其他音频。
-但是你也想要确保用户在他们正在播放其他音频时能听到语音提示。你可以为音频会话添加 [kAudioSessionProperty_OtherMixableAudioShouldDuck](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/AudioSessionServicesReference/index.html#//apple_ref/c/econst/kAudioSessionProperty_OtherMixableAudioShouldDuck) 属性来确保你的音频比其他正在音频的声音更大，除了 iPhone 上的电话以外。这些设置允许应用在后台运行时也可以恢复音频会话，意味着可以确保用户能获得实时更新的导航。
+你可以通过添加 kAudioSessionProperty_OverrideCategoryMixWithOthers 属性来实现人们在使用你的应用时仍可以收听其他音频。
+但是你也想要确保用户在他们正在播放其他音频时能听到语音提示。你可以为音频会话添加 kAudioSessionProperty_OtherMixableAudioShouldDuck 属性来确保你的音频比其他正在音频的声音更大，除了 iPhone 上的电话以外。这些设置允许应用在后台运行时也可以恢复音频会话，意味着可以确保用户能获得实时更新的导航。
 
 **情境5：一个允许用户上传文本和图片到网站上的博客应用。**你需要提供：
 
@@ -147,7 +147,7 @@
 
 ## 管理音频中断
 
-有时候，当前播放的音频会被来自于不同应用的音频所打断。例如，在iPhone上，来电会持续中断当前应用的音频。
+有时候，当前播放的音频会被来自于不同应用的音频所打断。例如，在 iPhone 上，来电会持续中断当前应用的音频。
 在多任务情境中，这种音频中断的频率会很高。
 
 为了提供用户喜欢的音频体验，iOS系统需要你来：
@@ -180,15 +180,16 @@
 
 **确定你的应用引起的音频中断的类型。**在你的音频结束时，你可以通过以下两种方式中的一种禁用你的音频会话来实现这一功能：
 
--	如果你的应用导致了一个可恢复性中断，使用 [AVAudioSessionSetActiveFlags_NotifyOthersOnDeactivation](https://developer.apple.com/library/ios/documentation/AVFoundation/Reference/AVAudioSession_ClassReference/index.html#//apple_ref/c/econst/AVAudioSessionSetActiveFlags_NotifyOthersOnDeactivation) 标识禁用你的音频会话。
+-	如果你的应用导致了一个可恢复性中断，使用 AVAudioSessionSetActiveFlags_NotifyOthersOnDeactivation 标识禁用你的音频会话。
 -	如果你的应用引起了一个不可恢复中断，不用任何标识就可以禁用你的音频会话。
 
 倘若不这样，标识会在适宜的情况下允许iOS系统赋予被中断的应用自动恢复播放它们的音频的能力。
 
 **决定是否应该在一个音频中断结束后恢复音频。**你应依据你应用中所提供的音频用户体验来做这一决断。
 
--	如果你的应用显示用户用于播放或暂停音频的媒体播放控件，你需要在一个音频中断结束后检查 [AVAudioSessionInterruptionFlags_ShouldResume](https://developer.apple.com/library/ios/documentation/AVFoundation/Reference/AVAudioSession_ClassReference/index.html#//apple_ref/c/econst/AVAudioSessionInterruptionFlags_ShouldResume) 标识，
+-	如果你的应用显示用户用于播放或暂停音频的媒体播放控件，你需要在一个音频中断结束后检查 AVAudioSessionInterruptionFlags_ShouldResume 标识，
   如果你的应用接收到应该恢复标识，你的应用应该：
+
  - 如果你的应用被打断时在主动播放音频，恢复播放音频；
  - 如果你的应用被打断时没有在主动播放音频，不需要恢复播放音频。
  - 如果你的应用没有显示任何用户可用于播放或暂停音频的媒体播放控件，你的应用应该在音频中断结束后总是保持恢复之前播放的音频，无论是否收到了“应该恢复”标识。
@@ -209,8 +210,8 @@
 **限制你的应用接收远程控制事件的次数，确保只在必要时接收。**例如，当你的应用帮助用户阅读内容、搜索信息或是收听音频时，它应该只有在用户处于音频场景中时才接收远程控制事件。当用户脱离音频情境时，应用应该放弃接收远程控制事件的能力。
 如果你的应用允许用户在支持 AirPlay 的设备上播放音频或视频，它应该在媒体播放期间都可以接收远程控制事件。遵循这些原则会允许用户在你的应用中处于非媒体情境中时，可以体验到不一样的应用媒体，并能用耳机控制它。
 
-**尽可能的使用系统原生的控件以提供 AirPlay 支持。**当你使用 [MPMoviePlayerController](https://developer.apple.com/library/ios/documentation/MediaPlayer/Reference/MPMoviePlayerController_Class/index.html#//apple_ref/occ/cl/MPMoviePlayerController) 类以实现 AirPlay 播放功能时，你可以利用标准的控件来允许用户选择当前范围内支持AirPlay的硬件。
-或者你可以使用 [MPVolumeView](https://developer.apple.com/library/ios/documentation/MediaPlayer/Reference/MPVolumeView_Class/index.html#//apple_ref/occ/cl/MPVolumeView) 类来显示用户可选择的支持 AirPlay 的音频或视频设备。
+**尽可能的使用系统原生的控件以提供 AirPlay 支持。**当你使用 MPMoviePlayerController 类以实现 AirPlay 播放功能时，你可以利用标准的控件来允许用户选择当前范围内支持AirPlay的硬件。
+或者你可以使用 MPVolumeView 类来显示用户可选择的支持 AirPlay 的音频或视频设备。
 因为用户习惯于这些标准控件的外观和行为，所以他们知道如何在你的应用中使用它们。
 
 **不要改变事件的用途，即使这个事件在你的应用中没有意义。**用户期望 iOS 系统的所有应用媒体控件和辅助控件能有功能上的统一。你不必实现你的应用所不需要的那些事件，但你所实现的事件结果符合用户的期望。
