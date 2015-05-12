@@ -3,7 +3,7 @@
 ## 活动指示器
 
 活动指示器表明任务或进程正在进行中，如下图所示。  
-![image](images/activity_indicator_2x.eng)
+![image](images/activity_indicator_2x.png)
 
 >API提示：  
 若想要了解如何在代码中定义活动指示器，可以参考[UIActivityIndicatorView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityIndicatorView_Class/index.html#//apple_ref/doc/uid/TP40006830).  
@@ -99,6 +99,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 网络活动指示器
 
 网络活动指示器在状态栏中出现，表示网络活动正在进行。
+
  ![image](images/network_activity_indicator_7_2x.png)
  
 >API提示：  
@@ -113,6 +114,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 页面控件
 
 页面控件告诉用户当前共打开了多少个视图，还有他们正停留在哪一个视图。
+
  ![image](images/page_control_weather_2x.png)
  
 >API提示：  
@@ -134,7 +136,9 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 选择器
 
 选择器展示了一组值，用户可以从中选择一个。
+
  ![image](images/picker_2x.png)
+ 
 >API提示：若想要了解如何在代码中定义选择器，请参考[UIPickerView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPickerView_Class/index.html#//apple_ref/doc/uid/TP40006842).  
 
 选择器：
@@ -152,6 +156,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 进度视图
 
 进度视图展示了任务或进程的进度（下图是iOS默认的邮件App的工具栏）。
+
  ![image](images/progress_view_2x.png)
  
 >API提示：  
