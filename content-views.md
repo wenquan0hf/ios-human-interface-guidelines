@@ -3,7 +3,7 @@
 ## 活动菜单
 
 每个活动菜单表示一个系统提供的服务或定制服务——它可以通过访问活动视图控制器(Activity view controller)来作用于某些特定的内容。
-
+ ![](activity_2x.png)
 >提示   
 想要了解如何在代码中定义标签栏，请参考[UIActivity Class Reference](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/check_2x.png).
 想要了解如何把一个活动视图控制器添加到应用程序中，请参考[Activity View Controller](content-views.md).
