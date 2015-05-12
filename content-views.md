@@ -82,25 +82,29 @@
 **确保你的容器内容控制器在横屏与竖屏模式都可用。**你的容器视图控制器无论在横屏还是竖屏中，体验都应该是一致的。  
 **一般来说，避免太过花哨的转场动画。**如果你采用了故事板(storyboard)的设计方法来设计你的视图内容控制器，你往往自然而然地会为它自定义一些动画。但绝大多数情况下，这些花哨的转场动画会让用户分心，让他们忘记了当前要做的事，还可能降低你的应用整体的美感。  
 
-##图片视图 - Image View
+## 图片视图 
+
 图片视图用以展示一张单独的图片，或者一系列动态图片。
 
 >提示   
 想要了解如何在代码中定义图片视图，请参考[image views](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/index.html#//apple_ref/doc/uid/TP40006926).
   
 图片视图: 
+
 -	图片视图不存在任何预先定义好的外观，同时在默认状态下它不支持用户的交互行为。 
 -	图片视图可以检测图片本身及其父视图(parent view)的属性，并决定这个图片是否应该被拉伸、缩放、调整到适合屏幕的大小，或者固定在一个特定的位置。  
 在iOS 7里，包含了模版图片(template image)的图片视图会把当前的色调(tint color)应用到图片上。
 请务必确保图片视图中的每一张图片都保持相同的尺寸和比例。如果你的图片尺寸各不相同，图片视图将会逐一对它们进行调整；而当你的图片比例不一，渲染的时候很可能会出错。
 
-##地图视图 - Map View
+## 地图视图 
+
 地图视图呈现地理数据，同时支持系统内置地图应用的大部分功能（如下图所示）。
 
 >提示   
 想要了解如何在代码中定义地图视图，请参考[Map Kit Framework Reference](https://developer.apple.com/library/ios/documentation/MapKit/Reference/MapKit_Framework_Reference/index.html#//apple_ref/doc/uid/TP40008210).
   
 地图视图: 
+
 -	地图视图通常以标准地图、卫星图像、或两者结合的形式来展示地理区域。
 -	地图样式还会标注单一的地点(annotations)，描绘路径和二维区域的轮廓。
 -	用户可以缩放和移动地图视图——除非你在应用中禁用了这些动作——你也可以在编程时自定义地图视图的缩放和移动。  
@@ -108,16 +112,19 @@
 利用地图视图可以给用户提供一个可交互的地理区域视图。如果你在开发一个导航类应用(routing app)，可以使用地图视图来展示你给用户的路径。
 一般来说，允许用户在视图中进行交互行为。用户习惯了在系统内置地图中进行交互，因此他们会有预期，能在你所提供的地图中进行类似的行为。
 使用标准的地图标注颜色。地图上标注了一系列地点。因为用户习惯了内置地图的各个标注的颜色，所以最好避免在你的应用中重新定义这些颜色的含义。定义颜色时，请遵循以下这些标准：
+
 -	红色——表示目的地
 -	绿色——表示起点
 -	紫色——表示用户指定的地点(User-Specified Point)  
 
-##页面视图控制器 - Page View Controller
+## 页面视图控制器
+
 页面视图控制器通过滚动(Scrolling)或翻页 (Page-curl transition style)来处理长度超过一页的内容。
  
 >提示   
 想要了解如何在代码中定义页面视图控制器，请参考[Page View Controller](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/PageViewControllers.html#//apple_ref/doc/uid/TP40011313-CH4).
 页面视图控制器: 
+
 -	带滚动条的页面视图控制器没有默认的外观
 带翻页效果的控制器可以在两页中间增加书脊(book spine)的效果——当用户翻页时，它看起来就像一本真实的书在翻页一样。
 -	页面内容控制器可以根据指定的切换效果来模拟出页面切换时的动画。 
@@ -126,20 +133,22 @@
 使用页面视图控制器来展示那些线性的内容——例如一个故事的文本，或者是一些可以被自然地拆分成块的内容——比如说，日历。
 如果需要，可以创建一个让用户实现非线性跳页的方式。页面视图控制器让用户从一页移动到前一页或者后一页，而并不支持用户在并不相邻的页面间快速切换。如果你希望在页面视图控制器中展示一些非线性的内容——比如说字典，或者书籍的目录——那么你就需要自定义一种方式，让用户可以随意地到达不同的内容区块。
 
-##弹出框 - Popover
+## 弹出框
+
 弹出框就是一个当你点击某一按钮在屏幕上出现的瞬态区域。
  
 >提示   
 在ios8和后续版本中，你可以使用[UIPopoverPresentationController](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPopoverPresentationController_class/index.html#//apple_ref/occ/cl/UIPopoverPresentationController)来呈现出弹出框（popover）。UIPopoverPresentationController定义一个代表让你的popover的内容可以适配当先屏幕环境。举个例子，在通常的水平环境下，你的内容可以在popover中滚动显示；而在水平紧凑环境下，你的内容可以完全呈现在屏幕上。
   
 弹出框: 
+
 -	是一个独立的模态视图
 -	在水平正常的环境下，有一个箭头指向它的来源
 -	具有半透明背景，可以模糊背景内容
 -	可以包含各种对象和视图，例如：
- -	输出表，图像，地图，文本，网页，或自定义视图
- -	导航栏，工具栏，或标签栏
- -	控件或对象在当前的应用程序视图对物体的行为  
+-	输出表，图像，地图，文本，网页，或自定义视图
+- 导航栏，工具栏，或标签栏
+-	控件或对象在当前的应用程序视图对物体的行为  
 （默认情况下，表观，在弹出的导航栏和工具栏，使用透明背景让弹出的模糊显示通过。）
 在一个水平正常的环境下，popover 总是出现在一个弹出菜单中。
 使用弹出显示附加信息或一系列的选定对象相关的项目。
@@ -149,7 +158,7 @@
 
 避免提供“取消”按钮。当用户不希望继续浏览popover时，它应该自动关闭。确定了当一个popover需要关闭时，考虑下面的情况：
 |If a popover… 	|Do this...  |
-|-------|:-------:|---:|
+|:-------|:-------:|---|
 |Provides options that affect the main view, but doesn’t implement an inspector |	Close the popover as soon as people make a choice or when they tap anywhere outside its bounds, including the control that reveals the popover. |
 |Implements an inspector |	Close the popover when people tap anywhere outside its bounds, including the control that reveals the popover. 
 In this scenario, don’t close the popover as soon as people make a choice, because they might want to make an additional choice or change the attributes of the current choice. |
@@ -167,13 +176,15 @@ In this scenario, you may not want to close the popover when people tap outside 
 确保自定义 popover 看上去也是一个普通的弹出框。虽然我们可以用[UIPopoverBackgroundView APIs]()很轻易地自定义 popover 的可视化效果，但还是要避免做出人们难以辨别的 popover。如果你把 popover 的样子改动过多，用户就不能以他们的经验来理解 popover 在应用程序中的作用了。  
 如果你修改了 popover 的尺寸那一定要小心。如果你用 popover 同时显示内容和内容的扩展时，你可能希望改变 popover 的尺寸。当你适配了 popover 的尺寸时，它也许是个不错的创新，因为它避免了一个新的 popover 在上一个 popover 中出现。  
 
-##滚动视图 - Scroll View
+## 滚动视图 
+
 滚动视图方便用户浏览尺寸超越滚动视图边界的图片（下图中地球的图片无论是长度还是宽度都超过了）。
  
 >提示   
 想要了解如何在代码中定义滚动视图，请参考[Scroll Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UIScrollView.html#//apple_ref/doc/uid/TP40012857-UIScrollView)。
   
 滚动视图: 
+
 -	滚动视图没有预定义的外观。
 -	滚动视图刚出现或者当用户在对它进行操作的时候——纵向和横向的滚动指示器会短暂地闪烁，以提示用户在当前视图外仍有更多内容。
 -	滚动视图的响应速度和对各个操作手势的识别都应当让用户感到自然。当用户在视图中拖拽内容，内容随之滚动；当用户轻扫屏幕时，内容将快速滚动——直到用户再次触摸屏幕或内容已经到达底部时停止。滚动视图同样可以应用在页模式(paging mode)中，在此模式下用户可以通过拖拽和轻击等手势来浏览一页的内容。
@@ -185,18 +196,22 @@ In this scenario, you may not want to close the popover when people tap outside 
 一般来说，一次只展示一个滚动视图。如果在一屏中同时存在不止一个滚动视图，由于用户滚动屏幕时动作幅度经常都会很大，他们很容易会碰到另一个。如果你确实要在同屏中放两个滚动视图，可以考虑给他们设定不同的滚动方向，来避免用户想要滚动一个视图的时候误操作。比如iPhone上的股票应用，纵向滚动上半部分会展示股票报价，横向滚动下半部分时则展示该公司的特定信息。
 
 
-##分离视图控制器 - Split View Controller
+##分离视图控制器 
+
 分离视图控制器是一个全屏的视图控制器，它管理着两级视图。
  
 >提示   
 每个子视图控制器负责管理一个窗格的显示。拆分视图控制器本身提出了这些子视图控制器和管理过渡之间的不同取向的转变。要了解更多关于在你的代码中定义一个拆分视图控制器的内容，请参考[UISplitViewController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISplitViewController_class/index.html#//apple_ref/doc/uid/TP40009277) 和 [Split View Controllers](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/SplitViewControllers.html#//apple_ref/doc/uid/TP40011313-CH7).
   
-在ios7和更早的系统中，分离视图控制器只用在 ipad 上。
+在 ios7 和更早的系统中，分离视图控制器只用在 ipad 上。
 通常，分离视图控制器使用尺寸类别来安排子视图控制器。例如，分离视图控制器：
+
 -	试图在普通环境下显示窗格水平排列
--	可以在顶部的次要窗格层状主窗格中显示，或隐藏在主窗格中，在需要时显示。它通常在一个水平紧凑的环境。   
+-	可以在顶部的次要窗格层状主窗格中显示，或隐藏在主窗格中，在需要时显示。它通常在一个水平紧凑的环境。
+
 你可以通过拆分视图控制器修改优先布局，更加关注需要特别显示的内容。
 分离视图控制器可以包含很多的内容和视图，例如：
+
 -	表，图片，地图，文字，网络，或自定义视图
 -	导航栏，工具栏，标签栏
 
@@ -204,18 +219,24 @@ In this scenario, you may not want to close the popover when people tap outside 
 尽管前一个显示的窗格常被称为是主窗格，第二个显示的被称为次窗格，但这种关系在代码中并不强制要求。
   
 **使用拆分视图控制器在主窗格中显示持续性的信息和相关细节，或在二级窗格显示下属信息。**在这种设计模式，当人们选择在主窗格中的一个项目，第二面板应显示与该项目相关的信息。（你要在代码中实现）  
-**避免显示的二次窗格，比原窗窄。**如果次级窗格是比主窗格窄，拆分视图控制器便不再充满屏幕，这和整体的外观是不平衡的。  
-**避免在两次窗口中都出现导航栏。**这样做会让用户很难区分这两级窗口的关系。  
-**通常，让当前的选择在主窗口中长时间显示。**尽管第二窗格的内容是可以改变的，它应始终与保持在主窗格中选定的项目有关。这样的观看体验，帮人们了解在主窗格中的项之间的关系和二次窗格的内容。  
+
+**避免显示的二次窗格，比原窗窄。**如果次级窗格是比主窗格窄，拆分视图控制器便不再充满屏幕，这和整体的外观是不平衡的。 
+
+**避免在两次窗口中都出现导航栏。**这样做会让用户很难区分这两级窗口的关系。 
+
+**通常，让当前的选择在主窗口中长时间显示。**尽管第二窗格的内容是可以改变的，它应始终与保持在主窗格中选定的项目有关。这样的观看体验，帮人们了解在主窗格中的项之间的关系和二次窗格的内容。 
+
 **如果合适的话，给用户一个可选择的方式来访问主窗格中。**通常，只有次级窗格在水平紧凑的环境中显示时，为用户提供一个按钮（通常位于一个导航栏）来显示和隐藏主窗格。拆分视图控制器还支持滑动手势进行显示/隐藏行动。如果你的应用程序使用滑动手势来执行其他功能，你应该让人们点击访问主窗格。  
 
-##表格视图 - Table View
+## 表格视图 
+
 表格视图以单列多行的形式来展示数据。
  
 >提示   
 想要了解如何在代码中定义表格视图，请参考[Tabel View Programming Guide for the iOS](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/TableViewStyles/TableViewCharacteristics.html#//apple_ref/doc/uid/TP40007451)以及[Table Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UITableView.html#//apple_ref/doc/uid/TP40012857-UITableView).
   
 表格视图: 
+
 -	表格视图中的数据是以单列的方式展示的，因此也很容易将它们分段或者分组。 
 - 提供一个控制钮让用户可以添加、移除列，选择几个列，看到有关列项目的更多信息，或者显示另一个表格视图。  
 iOS定义了两种表格样式:
@@ -226,8 +247,9 @@ iOS定义了两种表格样式:
 在这两种风格中，当用户点击一个可选择的项目时，表格行高亮显示。如果选择了一个行，跳转到一个新的屏幕，被选的行高亮显示作为新屏幕的出现提示。当用户返回前一个屏幕时，最初选定的行，再变成高亮，简要地提醒用户这是之前选择的内容。（这并不突出）。
   
 iOS提供了若干表格视图元素(table-view elements)来扩展表格视图的功能。除了特别标明外，这些元素只适用于表格视图。
+
 |Table view element |	Name |	Meaning |
-|-------|:-------:|:---|
+|:-------|:-------|:---|
 |![](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/check_2x.png)	|Checkmark |	Indicates that the row is selected. |
 |![]() 	|Disclosure indicator |	Displays another table associated with the row. |
 | 	|Detail Disclosure button |	Displays additional details about the row in a new view (for information on how to use this element outside of a table, see Popover). |
@@ -250,7 +272,6 @@ iOS定义了在平铺型表格和分组型表格中最常用到的四种单元�
 副标题型包括左侧图标（可选），图标右边左对齐展示的文字标题，以及在标题下方同样左对齐展示的副标题。
 左对齐的文本标签让用户可以更快速地扫视表格。这种样式适用于列表各项较为相似的情况，用户可以通过副标题中的详细信息来区分列表中的各项。
    
- 
 Value 1 ([UITableViewCellStyleValue1](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleValue1))
 在Value 1样式下，标题左对齐，副标题用较细的字体右对齐。
 Value 2 ([UITableViewCellStyleValue2](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableViewCell_Class/index.html#//apple_ref/c/econst/UITableViewCellStyleValue2))
@@ -261,6 +282,7 @@ Value 2的布局中，文本和副标题中间的垂直间距会让用户专注�
 以上四种单元格样式均支持添加表格视图元素，如勾选或展开标志。添加这些元素会缩小标题以及副标题单元格的可用宽度。
   
 使用表格视图可以简洁而高效地展示少量或者大量信息。举例来说，你可以通过表格视图来：
+
 -	展示用户可选的选项列表。你可以使用选中标记来告知用户当前选中了哪些项。
 -	展示层级信息。平铺型表格样式非常适合展示层级信息。表格中的每项都指向不同的子信息，这些子信息承载于另一个列表中。用户可以沿着这些层级结构的路径来点击每一层列表中的项。展开标志告知用户点击这一列中的任何位置，都将展开新的列表以展示其子类信息。
 -	展示可以在概念上进行分组的信息。平铺型和分组型列表都允许你通过提供页眉和页脚来对信息进行分组和分段。
@@ -279,30 +301,36 @@ Value 2的布局中，文本和副标题中间的垂直间距会让用户专注�
 尽量使用简洁的文字标签，以避免被截断。繁冗的文字和词组不方便用户浏览和理解。以上所有单元格样式均会自动截断文本，而文本截断所造成的问题可大可小，取决于你采用的单元格样式，以及被截断了哪一部分文字。  
 如果你想以一种非标准的形式来布局你的表格，最好是自定义一种单元格样式，而不是在现有的表格样式上进行改动。如何创建自定义单元格样式，请参考Customizing Cells  
 
-##文本视图 - Text View
+## 文本视图 
+
 文本视图可以接收和展示多行文本。
  
 >提示  
 想了解如何在代码中定义文本视图，参考[Text Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UITextView.html#//apple_ref/doc/uid/TP40012857-UITextView).
 
 文本视图: 
+
 -	文本视图是矩形，可定义为任何高度。 
 -	当内容太多超出视图的边框时，文本视图支持滚动。
 -	如果文本视图支持用户编辑，当用户轻击文本视图内部时，将唤起键盘。键盘的布局和类型取决于用户的系统语言设置。  
+
 你可以控制文本视图中文字的字体、颜色和对齐方式。文本视图的默认字体是系统字体，默认字色是黑色。默认文字对齐方式是左对齐（你可以改为居中或右对齐）。
 始终确保文字的易读性。虽然你可以使用属性字符串将不同的字体、字色和对齐方式串联在同一个文本视图内，但保持文本的可读性是必不可少的。最好是可以支持动态文本(Dynamic Type)和[UIFont](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIFont_Class/index.html#//apple_ref/occ/cl/UIFont) method preferredFontForTextStyle来展示文本框中的文本。想要了解动态文本的更多支持引导，参考[Text Should Always Be Legible](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ColorImagesText.html#//apple_ref/doc/uid/TP40006556-CH58-SW3);编程信息，参考[Text Styles](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/CustomTextProcessing/CustomTextProcessing.html#//apple_ref/doc/uid/TP40009542-CH4-SW65)  
 根据输入内容的类型来指定不同的键盘类型。举例来说，你希望用户能更方便地输入网址、密码或者电话号码。但请注意，由于键盘的布局以及输入方法是由用户的系统语言设置决定的，这是你不能控制的。  
 iOS提供了各种不同的键盘类型，以便用户输入不同类型的文本。想要了解可用键盘类型，可以参考UIKeyboardType.想要了解如何在管理你的应用中的键盘，请参考iOS App Programming Guide中的Managing the Keyboard部分。  
 
-##网络视图 - Web View
+## 网络视图
+
 网络视图是一个可以展示丰富的HTML内容的区域。（下图是iPhone自带的邮件应用，网络视图指的是下图中导航栏和标签栏中间的区域）
  
 >提示  
 想要了解如何在代码中定义网络视图，请参考[Web Views](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/UIWebView.html#//apple_ref/doc/uid/TP40012857-UIWebView).
 
 网络视图: 
+
 -	展示网络内容
--	自动处理页面中的内容，比如把页面中的电话号码转化成电话链接。  
+-	自动处理页面中的内容，比如把页面中的电话号码转化成电话链接。 
+-	
 如果你经营一个网页或者网络应用，你大约会用网络视图来实现一个简单的iOS App，来对你的网页或者应用进行一个封装。如果你打算用网络视图来访问你所控制的网页内容，请务必阅读Safari Web Content Guide.
 不要用网络视图来创建一个看起来像迷你网络浏览器的应用。用户期望使用iOS自带的Safari来浏览网页内容，因此我们并不推荐你在自己的应用中复制这种以被广泛应用的功能。
 
