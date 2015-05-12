@@ -138,7 +138,7 @@
 弹出框就是一个当你点击某一按钮在屏幕上出现的瞬态区域。
  
 >提示   
-在ios8和后续版本中，你可以使用[UIPopoverPresentationController](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPopoverPresentationController_class/index.html#//apple_ref/occ/cl/UIPopoverPresentationController)来呈现出弹出框（popover）。UIPopoverPresentationController定义一个代表让你的popover的内容可以适配当先屏幕环境。举个例子，在通常的水平环境下，你的内容可以在popover中滚动显示；而在水平紧凑环境下，你的内容可以完全呈现在屏幕上。
+在 ios8 和后续版本中，你可以使用[UIPopoverPresentationController](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPopoverPresentationController_class/index.html#//apple_ref/occ/cl/UIPopoverPresentationController)来呈现出弹出框（popover）。UIPopoverPresentationController定义一个代表让你的popover的内容可以适配当先屏幕环境。举个例子，在通常的水平环境下，你的内容可以在popover中滚动显示；而在水平紧凑环境下，你的内容可以完全呈现在屏幕上。
   
 弹出框: 
 
@@ -157,8 +157,9 @@
 本节中的指南包括界面和用户是在一个水平正常的环境中显示的用户体验。如果你提出的 popover 是在水平紧凑的环境是全屏显示的，看[Modal View](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Alerts.html#//apple_ref/doc/uid/TP40006556-CH14-SW3)的指导原则，其他全屏幕模式视图模型视图。
 
 避免提供“取消”按钮。当用户不希望继续浏览popover时，它应该自动关闭。确定了当一个popover需要关闭时，考虑下面的情况：
-|If a popover… 	|Do this...  |
-|:-------|:-------:|---|
+
+|If a popover… |Do this...  |
+|:------------|:-------------|
 |Provides options that affect the main view, but doesn’t implement an inspector |	Close the popover as soon as people make a choice or when they tap anywhere outside its bounds, including the control that reveals the popover. |
 |Implements an inspector |	Close the popover when people tap anywhere outside its bounds, including the control that reveals the popover. 
 In this scenario, don’t close the popover as soon as people make a choice, because they might want to make an additional choice or change the attributes of the current choice. |
