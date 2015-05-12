@@ -1,5 +1,7 @@
 # 快速查看
-使用 Quick Look ，即使你的应用是打不开这个文件的,用户也可以在你的应用内预览文件，。
+
+使用 Quick Look ，即使你的应用是打不开这个文件的,用户也可以在你的应用内预览文件。
+
 例如，你可以允许用户预览一些从网站上下载或从其他来源收到的文件。
 
 ![images](images/attached_doc_2x.png)
@@ -7,6 +9,7 @@
 想要学习如何在应用中加入支持 Quick Look 文件预览功能，请查看 [Document Interaction Programming Topics for iOS](https://developer.apple.com/library/ios/documentation/FileManagement/Conceptual/DocumentInteraction_TopicsForIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40010403) 。
 
 用户在应用中预览文件之前，他们可以在你自定义的视图中查看文件的信息。例如，用户从一封邮件中下载了附件之后，邮件应用会在邮件中以自定义的视图展示文件的图标、标题和大小。
+
 用户可以通过点击它来预览文件。
 
 ![images](images/attached_doc2_2x.png)

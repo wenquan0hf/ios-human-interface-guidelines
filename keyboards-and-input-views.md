@@ -1,7 +1,7 @@
 # 键盘和输入页面
 
 在 iOS8 与之后的系统中，你可以创建自定义键盘扩展来替代系统原生键盘。
-欲了解更多关于管理应用内扩展包括键盘的信息，参见 [App Extensions](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/AppExtensions.html#//apple_ref/doc/uid/TP40006556-CH67-SW1) ；
+欲了解更多关于管理应用内扩展包括键盘的信息，参见 [App Extensions](extensions.md) ；
 欲了解如何开发自定义键盘扩展的信息，参见 [Custom Keyboard](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/Keyboard.html#//apple_ref/doc/uid/TP40014214-CH16) 章节。
 
 在适当的情况下，你也可以在你的应用内设计自定义的输入页面来替代系统原生的屏幕键盘。

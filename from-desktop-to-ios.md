@@ -1,4 +1,5 @@
 # 案例学习：从桌面到 iOS
+
 ## Keynote（iPad 版）
 
 桌面版的 Keynote 应用十分的强大，灵活，可以帮助你创建一个很棒的幻灯片。用户喜爱 Keynote 的设计思想，它在具有无比细腻的操作的基础上融合了简单易用的原则，进而让用户可以精确地控制一些细节，如动画和文本属性等等。
@@ -61,7 +62,7 @@ iPad 版的 Keynote 能自动侦测各种工具，并且根据用户的需求来
 
 每个页面显示了邮件应用功能的其中一个方面：账户列表、邮箱列表、邮件列表、邮件查看视图和编辑视图。在一个屏幕内，用户可以通过滑动操作查看完整的内容。
 
-![image](images/ds_mailscreens_2x.jpg)
+![image](images/ds_mailscreens_2x.png)
 
 **简单可预见的导航**
 
@@ -87,7 +88,7 @@ iOS 设备可以出色地呈现所有基于网页设计标准建立的网页。�
 - 避免使用 CSS 中固定的定位，以免当用户缩放或拖动页面时，页面内容无法被移出屏幕
 - 配有一套基于触控操作的用户界面，而不是仅依赖基于传统点击操作的交互
 
-有时候，进行一些额外的修改可以使页面更合理。例如，在 iOS 系统中，很多浏览器会设置合适的视窗（viewport）宽度并通常隐藏 Safari 浏览器本身的控件。如欲了解更多如何进行这些修改，参见 [Safari Web Content Guide](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509) 章节中的 [Configuring the Viewport](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3)和[Configuring Web Applications](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/Introduction/Introduction.html#//apple_ref/doc/uid/TP40002051)。
+有时候，进行一些额外的修改可以使页面更合理。例如，在 iOS 系统中，很多浏览器会设置合适的视窗（viewport）宽度并通常隐藏 Safari 浏览器本身的控件。
 
 网页也可以通过一些其他的方法将桌面版的用户体验适配到 iOS 端的 Safari 中，如：
 
@@ -97,4 +98,4 @@ iOS 设备可以出色地呈现所有基于网页设计标准建立的网页。�
 
 **使弹出式菜单适应 iOS 端的 Safari**
 
-如其他 OS X 应用一样，在桌面版的 Safari 浏览器中，弹出式菜单中包含了很多选项。在必要的情况下，用户可以通过展开菜单，使其超出应用窗口的边界，以显示其中的所有选项。而在 iOS 版的 Safari 浏览器中，为了提供更好的用户体验，弹出式菜单是由原生的元素所呈现的。例如，在 iPhone 上，弹出式菜单会出现在选择器（picker）当中，选择器里提供了用户可选择的选项列表。（欲了解更多选择器控件的内容，可以参见 [Picker](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW23)。）
+如其他 OS X 应用一样，在桌面版的 Safari 浏览器中，弹出式菜单中包含了很多选项。在必要的情况下，用户可以通过展开菜单，使其超出应用窗口的边界，以显示其中的所有选项。而在 iOS 版的 Safari 浏览器中，为了提供更好的用户体验，弹出式菜单是由原生的元素所呈现的。例如，在 iPhone 上，弹出式菜单会出现在选择器（picker）当中，选择器里提供了用户可选择的选项列表。

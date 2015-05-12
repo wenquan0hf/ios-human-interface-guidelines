@@ -21,9 +21,8 @@ UIKit 提供的 UI 组件大致分成以下4大类：
 
 ![image](images/windowlayers_world_clock_2x.png)
 
-虽然开发者认为真正起到作用的是视图和视图控制器，但一般用户感知到的iOS应用是不同屏幕内容的集合。从这个角度来看，在应用里，屏幕内容一般对应于一个独特的视觉状态或者模式。
+虽然开发者认为真正起到作用的是视图和视图控制器，但一般用户感知到的 iOS 应用是不同屏幕内容的集合。从这个角度来看，在应用里，屏幕内容一般对应于一个独特的视觉状态或者模式。
 
 >注意  
 一个 iOS 应用程序包含一个窗口。但是，不同于计算机程序中的窗口，iOS 窗口没有可见的部分并且不能在屏幕上被移动到另一个位置。很多 iOS 应用程序只有一个窗口；可以支持外部显示设备器的应用程序可以有不止一个窗口。
 
-在 iOS Human Interface Guidelines 中，screen 这个词和大部分用户理解的一样。作为一个开发者，你也许需要读一下其他与 [UIscreen](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIScreen_Class/index.html#//apple_ref/occ/cl/UIScreen) 相关的章节，这样你可以更好的了解如何关联外部屏幕。

@@ -16,9 +16,9 @@
 
 特别注意，不要使用往期杂志的封面作为应用默认的封面图标，否则用户会将应用与具体的某一期杂志混淆。例如某个默认的报刊杂志图标：
 
-![image](images/magazine_default.jpg)
+![image](images/magazine_default_2x.png)
 
-![image](images/newspaper_default.jpg)
+![image](images/newspaper_default_2x.png)
 
 除了默认的图标之外，你同样需要为每一期新的期刊提供单独的图标，这个图标会出现在杂志书架及 iOS 设备的多任务界面上。与默认封面图标不同，每一期期刊的图标需要详细展示了这一期内容的细节。
 

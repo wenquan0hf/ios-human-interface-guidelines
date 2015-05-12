@@ -1,4 +1,4 @@
-# 栏（Bars）
+# 栏
 
 ## 状态栏（The Status Bar）
 
@@ -15,7 +15,6 @@
 状态栏：
 
 - 透明的
-
 - 总是在设备顶部边缘出现
 
 >API 备注  
@@ -26,9 +25,7 @@
 **防止让滚动内容透过状态栏显示。**当用户滑动页面时，你不会希望他们在状态栏区域将应用内容和状态栏本身混淆。为了让用户感觉宽敞的同时仍然保证最佳的可能性，要确保状态栏背景会模糊其背后的内容。这里有一些方法让滚动内容可以透过状态栏隐约呈现：
 
 - 使用导航控制器来显示内容。导航控制器会自动显示状态栏背景，并确保其内容视图不会在状态栏后出现。（如需了解更多关于导航控制器的信息，详见 [Navigation Controllers](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/NavigationControllers.html#//apple_ref/doc/uid/TP40011313-CH2)）。
-
 - 创建一个不醒目的自定义图片——例如渐变——并放到状态栏后显示。为确保这张图片显示在状态栏后面，你可以使用视图控制器来保证这张图片在滚动视图之上，或者你可以使用滚动视图并让其固定在顶部。
-
 - 定位内容，以避开状态栏区域（即，由应用的 [statusBarFrameproperty](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/occ/instp/UIApplication/statusBarFrame) 定义的区域）。如果你这样做了，要使用窗口的背景颜色以在状态栏后提供一个固定的颜色。
 
 **避免在状态栏后面放置干扰性内容。**尤其是，你不能让用户觉得轻触状态栏之后可以获取内容或激活你的应用中的控件。
@@ -53,13 +50,11 @@
 导航栏：
 
 - 半透明的
-
 - 通常位于应用页面顶部，状态栏正下方
 
 在横向常规环境中，一个导航栏也可以不延长屏幕显示在一个视图上，如分裂的一个窗格视图控制器。
 
 - 键盘出现，用户的手势，或视图控制器转换为一个垂直紧凑的环境时，可以隐藏。
-
 - 可以染色。（使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/occ/instp/UIBarButtonItem/tintColor) 色彩栏按钮项;使用 [barTintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UINavigationBar_Class/index.html#//apple_ref/occ/instp/UINavigationBar/barTintColor) 设置状态栏背景色）。
 
 >API 备注  
@@ -70,7 +65,6 @@
 当用户在导航层级中进入一个新的层级，会发生两个变化：
 
 - 导航栏标题可以适时变成新层级的标题。
-
 - 在导航栏左侧显示返回按钮，并以上一级页面的标题命名。
 
 **如果导航栏需要一个标题，那就使用当前视图的标题作为导航栏的标题。**如果觉得给导航栏增加标题毫无必要，你也可以将标题留空。例如，便签并没有当前便签的标题，因为内容的第一行已经给了用户其所需要的所有情境。 
@@ -106,7 +100,6 @@
 
 ![image](images/nav_bar_hidden_2x.png)
 
-
 ## 工具栏（Toolbar）
 
 工具栏包含了对页面或视图中对象进行操作的控件。
@@ -118,9 +111,7 @@
 工具栏：
 
 - 半透明的
-
 - 在iphone上始终在屏幕或视图底部出现，在ipad上也可以在屏幕或视图顶部出现。
-
 - 当键盘出现，用户做一个手势或视图控制器转换到一个垂直的界面时，工具栏可隐藏。
 
 >API备注  
@@ -149,7 +140,7 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 表37-1 工具栏和导航栏适用的标准按钮
 
 |按钮 	|名称 	|含义   |
-|:--------:|:----------:|:-----------|:----------:|	  
+|:--------|:----------|:-----------|:----------|	  
 |![image](images/UIBarButtonAction_2x.png)    |分享（Action）|打开一个操作菜单，上面列出了针对当前内容，由系统提供或是由应用自定义的操作服务。|
 |![image](images/UIBarButtonCamera_2x.png)      |相机（Camera）	|打开一个操作菜单，在相机模式下显示了一个图片选择器|
 |![image](images/UIBarButtonCompose_2x.png)     |撰写（Compose）	|打开一个处于编辑模式的新消息视图|
@@ -171,7 +162,6 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 ![image](images/info_button_2x.png)
 
-
 ## 标签栏（Tab Bar）
 
 标签栏赋予了用户在不同子任务、视图和模态之间切换的能力。
@@ -186,13 +176,9 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 标签栏：
 
 - 半透明的
-
 - 通常出现在屏幕底部
-
 - 横向屏幕同时显示不超过5个标签（如果有更多标签，标签栏会显示其中4个并增加一个更多标签，再将其他的标签以列表形式收纳其中）。
-
 - 标签栏高度不随设备方向改变而改变
-
 - 可以用徽标来显示和应用有关的特有信息（一个红底白字并显示数字或感叹号的椭圆形）
 
 使用标签可以让用户在同一组数据的不同视图中切换，或是在和应用整体功能相关的不同子任务中。
@@ -213,7 +199,6 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 **尽可能横屏竖屏都显示一样的标签。**横屏竖屏都显示相同的标签可以给用户一种应用的视觉稳定感。横屏方向时，你应该将同样的标签沿屏幕宽度居中。
 
-
 ## 标签栏图标（Tab Bar Icons）
 
 iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计自定义标签栏图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。标签栏图标可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/tintColor)属性着色。
@@ -226,7 +211,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 表37-2 用于标签栏的标准标签图标
 
 |按钮	|名称	|含义   |
-|:--------:|:----------:|:-----------|:----------:|	
+|:--------|:----------|:-----------|:----------|	
 |![image](images/UITabBarBookmarks_2x.png)|	书签（Bookmarks）|	显示此应用中的书签|
 |![image](images/UITabBarContacts_2x.png)|	联系人（Contacts）|	显示联系人|
 |![image](images/UITabBarDownloads_2x.png) |	下载（Downloads）|	显示下载项|
@@ -240,7 +225,6 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 |![image](images/UITabBarSearch_2x.png )|	搜索（Search）|	进入搜索模式|
 |![image](images/UITabBarTopRated_2x.png)|	最高评分（Top Rated）|	显示由用户产生的最高评分项目|
 
-
 ## 搜索栏（Search Bar）
 
 搜索栏可以接收用户输入的文本并将其作为一次搜索输入（如下图所示）。
@@ -253,7 +237,6 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 搜索栏可以显示一些可选的元素，如这些:
 
 - 占位符文本。此文本可能会说明这个控件的功能（例如，“搜索”）或者提醒用户在何种搜索情境之下（例如，“Google”）。
-
 - 书签按钮。此按钮可以给用户提供一种快捷方式，再次抵达他们想要轻松找到的信息。例如，地图搜索模式中的书签按钮可以让人访问收藏的位置、最近搜索和联系人。
 
 ![image](images/search_bar_bookmarks_2x.png)
@@ -287,7 +270,6 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 精简的搜索栏风格（在音乐中显示）
 
 ![image](images/search_bar_minimal_2x.png)
-
 
 ## 范围栏（Scope Bar）
 

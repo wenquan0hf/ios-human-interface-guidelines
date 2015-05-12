@@ -57,11 +57,11 @@ iOS 的任意一种设备在主屏幕呈现应用图标时，都会自动为图�
 
 一个未添加遮罩的 120 x 120 像素的图标
 
-![image](images/star120_original.png)
+![image](images/star120_original_2x.png)
 
 一个添加了遮罩的 120 x 120 像素的图标
 
-![image](images/star120_processed.png)
+![image](images/star120_processed_2x.png)
 
 **在 App Store 中的图标创建一个大尺寸的版本**
 
