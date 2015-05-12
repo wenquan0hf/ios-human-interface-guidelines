@@ -1,20 +1,23 @@
-#内容视图 - Content Views
-##活动菜单 - Activity 
+# 内容视图 
+
+## 活动菜单
+
 每个活动菜单表示一个系统提供的服务或定制服务——它可以通过访问活动视图控制器(Activity view controller)来作用于某些特定的内容。
 
- 
 >提示   
 想要了解如何在代码中定义标签栏，请参考[UIActivity Class Reference](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Art/check_2x.png).
-想要了解如何把一个活动视图控制器添加到应用程序中，请参考[Activity View Controller](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/ContentViews.html#//apple_ref/doc/uid/TP40006556-CH13-SW121).
-行动和共享的扩展也在活动视图控制器中显示。要了解关于这些扩展更多的信息，请参考[Share and Action Extensions](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/AppExtensions.html#//apple_ref/doc/uid/TP40006556-CH67-SW3). 
+想要了解如何把一个活动视图控制器添加到应用程序中，请参考[Activity View Controller](content-views.md).
+行动和共享的扩展也在活动视图控制器中显示。要了解关于这些扩展更多的信息，请参考[Share and Action Extensions](extensions.md). 
  
 活动菜单：
+
 -	是指一种代表当前应用所支持服务的对象。
 -	由一种类似于按钮的图标来表示。  
  
 用户通常通过点击控制器中的活动图标来启动某样活动。点击之后该项服务通常会立刻执行，除非这项服务过于复杂，此时系统将会进一步索取更多的信息之后才会为用户执行该服务。
 使用活动菜单来让用户执行你的应用所提供的服务。请注意，iOS 本身提供了若干内置的服务和应用扩展，如打印，转发到 Twitter，发送信息和 Airplay 等等，你不需要再另外创建它们。
-为你应用的各种服务设计一套精简的模版图标(Template image)。模板是iOS使用的一种形象，来创建最后用户看到的图标。如果想制作出好看的模版图标，设计的时候可以遵循以下原则：
+为你应用的各种服务设计一套精简的模版图标(Template image)。模板是 iOS 使用的一种形象，来创建最后用户看到的图标。如果想制作出好看的模版图标，设计的时候可以遵循以下原则：
+
 -	使用透明度适当的黑色或白色
 -	不要使用阴影
 -	进行抗锯齿处理  
@@ -22,41 +25,54 @@
 一个活动模版图大小应该保持在70×70像素左右(高分辨率下)，在区域里居中显示。  
 为每一个活动菜单设计清晰简练的文字标题。标题将会出现在活动菜单图标的下方。短标题通常效果最好，因为它在屏幕上的显示效果更好并且更容易本地化。如果你的标题文字过长，iOS会将缩小文本，仍然过长的话则会被截断。一般而言，最好能避免在活动标题中提及你的公司或产品名称。
 
-##活动视图控制器 - Activity View Controller 
+## 活动视图控制器
+
 活动视图控制器是一个临时视图，当中罗列了一系列可以针对页面特定内容的系统服务和自定义服务。  
 
 >提示  
 想要了解如何在代码中定义活动视图控制器，请参考[UIActivityView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityViewController_Class/index.html#//apple_ref/doc/uid/TP40011976).想要知道怎么设计一个提供用户服务的活动菜单，请参考[Activity](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityViewController_Class/index.html#//apple_ref/doc/uid/TP40011976). 
 
 活动视图控制器: 
+
 -	显示一个可配置的任务列表,用户可以执行指定的内容
 -	可以根据环境发出某一个动作  
 
-**使用活动视图控制器来为用户提供一系列针对当前内容的服务。**这些服务可以是系统自带的，比如复制，分享到twitter，打印等等，也可以是自定义的。活动视图控制器通常用作让用户把他们选中的内容复制到他们的社交媒体账户上。  
+**使用活动视图控制器来为用户提供一系列针对当前内容的服务。**这些服务可以是系统自带的，比如复制，分享到twitter，打印等等，也可以是自定义的。活动视图控制器通常用作让用户把他们选中的内容复制到他们的社交媒体账户上。
+
 **不要创建一个自定义按钮来触发活动视图控制器。**用户更习惯点击分享按钮后使用系统提供的服务。你应该学会如何更好地利用用户这一既定习惯，而不是强迫他们以一种全新的方式来完成同样的事情。  
-**确保控制器中的操作适用于当前场景。**你可以适当地在活动视图控制器中增减系统操作，或增加自定义操作。例如，如果你不希望用户打印某张图片，你可以把打印功能从活动视图控制器中删除。  
+
+**确保控制器中的操作适用于当前场景。**你可以适当地在活动视图控制器中增减系统操作，或增加自定义操作。例如，如果你不希望用户打印某张图片，你可以把打印功能从活动视图控制器中删除。
+
 >注意  
 你不能改变系统默认服务在活动图像控制器中的顺序。同时，所有系统服务都应出现在自定义服务之前。
 
-##集合视图 - Collection View 
+## 集合视图
+
 集合视图用于管理一系列有序的项，并以一种自定义的布局来呈现它们。  
  
 >提示   
 想要了解如何在代码中定义集合视图，请参考[Collection View Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/CollectionViewPGforIOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40012334).  
 
 集合视图: 
+
 -	可以包含可选视图视觉上区分的项目子集或提供装饰用品，如自定义背景
 -	支持布局之间的自定义动画的过渡 （默认情况下，当用户插入、 移动或删除的项目集合视图提供动画）
 -	支持手势识别器来执行自定义操作的加法。默认情况下，集合视图可选择和编辑相关项目。  
 
 **使用集合视图来让用户查看和操作一系列不适合以列表形式呈现的项。**由于集合视图的布局不是一个严格的线性布局，因此尤其适合用来展示一些尺寸不一致的项。
-**集合视图支持广泛的自定义，因此我们要尽量避免把心思都放在进行全新的设计上。**集合视图是用来帮助用户更好地完成任务的，视图本身并不是用户体验的焦点所在。以下指导会帮你创建人们喜爱的集合视图。  
-**可以使用表格视图(Table View)的时候，不要使用集合视图。**有时候用户会觉得以列表呈现的信息更容易阅读和理解，例如将文本信息放在滚动列表中滚动列表中的时候，用户阅读和处理起来会更为简单和高效。  
-**让视图中的项更容易点击。**如果用户很难点中集合视图中的项，他们是不会愿意用你的应用的。跟所有用户可以点击的UI对象一样，请确保你的集合视图中每一个项的最小点击区域有44×44pt，尤其是在iPhone上。  
+
+**集合视图支持广泛的自定义，因此我们要尽量避免把心思都放在进行全新的设计上。**集合视图是用来帮助用户更好地完成任务的，视图本身并不是用户体验的焦点所在。以下指导会帮你创建人们喜爱的集合视图。
+
+**可以使用表格视图(Table View)的时候，不要使用集合视图。**有时候用户会觉得以列表呈现的信息更容易阅读和理解，例如将文本信息放在滚动列表中滚动列表中的时候，用户阅读和处理起来会更为简单和高效。
+
+**让视图中的项更容易点击。**如果用户很难点中集合视图中的项，他们是不会愿意用你的应用的。跟所有用户可以点击的UI对象一样，请确保你的集合视图中每一个项的最小点击区域有44×44pt，尤其是在iPhone上。 
+
 **当你要让整个布局进行动态变化时，请务必谨慎。**集合视图允许你在用户浏览和操作项的时候调整视图的布局。但当你决定调整它的时候，请确保这个动态变化是有意义并且容易理解的。没有明确目的而贸然改变集合视图的布局会让用户对应用留下难用、不符合预期等负面的印象。更有甚者，如果用户此时关注的项在变化中消失了，用户会觉得这个应用超出了他们的控制能力。  
 
-##容器视图控制器 - Container View Controller
-容器视图控制器采用自定义的方式来管理和呈现它的视图控制器或一系列子视图。系统定义的容器视图控制器包括标签栏视图控制器([Tab bar view controller](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW52))、导航视图控制器([Navigation Bar](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW3))和对分视图控制器([split view controller](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW3)).
+## 容器视图控制器
+
+容器视图控制器采用自定义的方式来管理和呈现它的视图控制器或一系列子视图。系统定义的容器视图控制器包括标签栏视图控制器([Tab bar view controller](bars.md))、导航视图控制器([Navigation Bar](bars.md))和对分视图控制器([split view controller](bars.md)).
+
 >提示   
 想要了解如何在代码中定义容器视图控制器，请参考[UIViewController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/index.html#//apple_ref/doc/uid/TP40006926)
   
