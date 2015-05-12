@@ -15,7 +15,7 @@
 
 ![images](images/standard_iad_banner_2x.png)
  
-所有iOS的应用都可以展示标准横幅。你可以使用 [ADBannerView](https://developer.apple.com/library/ios/documentation/UserExperience/Reference/ADBannerView_Ref/index.html#//apple_ref/occ/cl/ADBannerView) 类提供的视图来显示标准横幅。
+所有 iOS 的应用都可以展示标准横幅。你可以使用 [ADBannerView](https://developer.apple.com/library/ios/documentation/UserExperience/Reference/ADBannerView_Ref/index.html#//apple_ref/occ/cl/ADBannerView) 类提供的视图来显示标准横幅。
 
 *中等矩形横幅* 和标准横幅的行为基本相同，同样也可以选择显示中等矩形横幅的位置。
 
@@ -38,7 +38,7 @@ iAd 框架包含了所有类型的横幅，并且会在右下角显示 iAd 的�
 **将标准横幅尽量放置在屏幕底部或底部附近。**这个位置的差别取决于底部是否有栏以及是什么样的栏。
 
 | 栏 | 标准横幅的位置 |
-| ------ |:-------:|
+| :------ |:-------|
 | 屏幕底部没有栏 | 屏幕底部 |
 | 屏幕任何地方都没有栏 | 屏幕底部 |
 | 底部有工具栏或者选项卡 | 底部栏上方 |
@@ -47,11 +47,11 @@ iAd 框架包含了所有类型的横幅，并且会在右下角显示 iAd 的�
 同时将横幅放在屏幕底部附近也能减少干扰用户的可能性。
 
 **用户体验有中断时使用模式化形式显示全屏横幅。**如果你的应用中有自然中断或者情景转换时，模式化方式显示的风格会更合适。
-当你模式化展示全屏横幅时（通过使用 [presentFromViewController](https://developer.apple.com/library/ios/documentation/iAd/Reference/ADInterstitialAd_Ref/index.html#//apple_ref/occ/instm/ADInterstitialAd/presentFromViewController:) 实现）用户必须选择要么进入广告，要么关闭它。
+当你模式化展示全屏横幅时（通过使用 presentFromViewController 实现）用户必须选择要么进入广告，要么关闭它。
 出于这个原因，当用户有做出转变的预期时（例如完成了一个任务后）用模式化方式展示形式比较好。
 
 **应用视图在切换时不要使用模式化展示全屏横幅。**如果用户在使用你的应用时会频繁的进行屏幕切换操作，例如杂志翻页或翻阅一些条目集合，此时使用非模式化的形式会更合适。
-当你使用非模式化来显示全屏横幅时（通过使用 [presentInView](https://developer.apple.com/library/ios/documentation/iAd/Reference/ADInterstitialAd_Ref/index.html#//apple_ref/occ/instm/ADInterstitialAd/presentInView:) 实现），可以在你的界面中保留栏使用户通过应用控件进入或退出广告。
+当你使用非模式化来显示全屏横幅时（通过使用 presentInView 实现），可以在你的界面中保留栏使用户通过应用控件进入或退出广告。
 和其他横幅广告一样，点击全屏横幅会启动 iAd 体验，但是如果条件允许，你也可以在应用中支持横幅内的其他手势操作（例如拖动或滑动）。
 
 **确保使用合适的动画效果来显示和隐藏非模式化的全屏横幅视图。**例如，一个杂志阅读应用的横幅可以用和杂志翻页一样的动画效果。
@@ -73,5 +73,5 @@ iAd 框架包含了所有类型的横幅，并且会在右下角显示 iAd 的�
 **除非有特殊情况，否则不要中断广告。**一般情况下，在用户浏览并与广告交互时，应用还是在继续运行并接收事件的，所以也有可能突然出现一个事件需要获得用户的注意。
 然而，需要打断一个正在运行的广告的场景其实非常少。有一种可能的情形是应用提供互联网语音协议服务（ VoIP ）时。在这种应用中，有电话接入时可能会取消正在运行的广告。
 
-`注意：取消广告可能会对应用能接受的广告类型以及能获取的收益有不好的影响。`
+>注意：取消广告可能会对应用能接受的广告类型以及能获取的收益有不好的影响。`
 
