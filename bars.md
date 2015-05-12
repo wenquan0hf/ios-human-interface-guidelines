@@ -25,7 +25,6 @@
 **防止让滚动内容透过状态栏显示。**当用户滑动页面时，你不会希望他们在状态栏区域将应用内容和状态栏本身混淆。为了让用户感觉宽敞的同时仍然保证最佳的可能性，要确保状态栏背景会模糊其背后的内容。这里有一些方法让滚动内容可以透过状态栏隐约呈现：
 
 - 使用导航控制器来显示内容。导航控制器会自动显示状态栏背景，并确保其内容视图不会在状态栏后出现。（如需了解更多关于导航控制器的信息，详见 [Navigation Controllers](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewControllerCatalog/Chapters/NavigationControllers.html#//apple_ref/doc/uid/TP40011313-CH2)）。
-
 - 创建一个不醒目的自定义图片——例如渐变——并放到状态栏后显示。为确保这张图片显示在状态栏后面，你可以使用视图控制器来保证这张图片在滚动视图之上，或者你可以使用滚动视图并让其固定在顶部。
 - 定位内容，以避开状态栏区域（即，由应用的 [statusBarFrameproperty](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/index.html#//apple_ref/occ/instp/UIApplication/statusBarFrame) 定义的区域）。如果你这样做了，要使用窗口的背景颜色以在状态栏后提供一个固定的颜色。
 
@@ -56,7 +55,6 @@
 在横向常规环境中，一个导航栏也可以不延长屏幕显示在一个视图上，如分裂的一个窗格视图控制器。
 
 - 键盘出现，用户的手势，或视图控制器转换为一个垂直紧凑的环境时，可以隐藏。
-
 - 可以染色。（使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/occ/instp/UIBarButtonItem/tintColor) 色彩栏按钮项;使用 [barTintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UINavigationBar_Class/index.html#//apple_ref/occ/instp/UINavigationBar/barTintColor) 设置状态栏背景色）。
 
 >API 备注  
@@ -102,7 +100,6 @@
 
 ![image](images/nav_bar_hidden_2x.png)
 
-
 ## 工具栏（Toolbar）
 
 工具栏包含了对页面或视图中对象进行操作的控件。
@@ -115,7 +112,6 @@
 
 - 半透明的
 - 在iphone上始终在屏幕或视图底部出现，在ipad上也可以在屏幕或视图顶部出现。
-
 - 当键盘出现，用户做一个手势或视图控制器转换到一个垂直的界面时，工具栏可隐藏。
 
 >API备注  
@@ -166,7 +162,6 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 ![image](images/info_button_2x.png)
 
-
 ## 标签栏（Tab Bar）
 
 标签栏赋予了用户在不同子任务、视图和模态之间切换的能力。
@@ -204,7 +199,6 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 **尽可能横屏竖屏都显示一样的标签。**横屏竖屏都显示相同的标签可以给用户一种应用的视觉稳定感。横屏方向时，你应该将同样的标签沿屏幕宽度居中。
 
-
 ## 标签栏图标（Tab Bar Icons）
 
 iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计自定义标签栏图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。标签栏图标可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/tintColor)属性着色。
@@ -230,7 +224,6 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 |![image](images/UITabBarRecents_2x.png)|	最近（Recents）|	显示在应用规定时间内用户访问的项目|
 |![image](images/UITabBarSearch_2x.png )|	搜索（Search）|	进入搜索模式|
 |![image](images/UITabBarTopRated_2x.png)|	最高评分（Top Rated）|	显示由用户产生的最高评分项目|
-
 
 ## 搜索栏（Search Bar）
 
