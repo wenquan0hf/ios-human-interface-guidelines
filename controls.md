@@ -2,8 +2,9 @@
 
 ## 活动指示器
 
-活动指示器表明任务或进程正在进行中，如下图所示。  
-![image](images/activity_indicator_2x.eng)
+活动指示器表明任务或进程正在进行中，如下图所示。 
+
+![image](images/activity_indicator_2x.png)
 
 >API提示：  
 若想要了解如何在代码中定义活动指示器，可以参考[UIActivityIndicatorView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIActivityIndicatorView_Class/index.html#//apple_ref/doc/uid/TP40006830).  
@@ -21,6 +22,7 @@
 ## 添加联系人按钮
 
 添加联系人按钮让用户将现有联系人添加到文本框或者其它文字视图中。  
+
  ![image](images/contact_add_7_2x.png)
  
 >API提示：  
@@ -36,7 +38,8 @@
 
 ## 日期时间选择器
 
-日期时间选择器显示关于日期和时间的组件，比如小时，分钟，天，以及年。  
+日期时间选择器显示关于日期和时间的组件，比如小时，分钟，天，以及年。 
+
  ![image](images/date_picker_2x.png)
  
 >API提示：  
@@ -60,6 +63,7 @@
 ## 详情展开按钮 
 
 详情展开按钮展示了与该项相关的更多详细信息与功能描述。
+
  ![image](images/detail_disclosure_2x.png)
  
 >API提示：
@@ -72,6 +76,7 @@
 ## 信息按钮
 
 信息按钮展示了app的配置信息，有时候它会出现在当前视图的背面。
+
  ![image](images/info_button_2x.png)
  
 >API提示：
@@ -83,6 +88,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 标签
 
 标签用于显示静态文本。
+
  ![image](images/labels_2x.png)
  
 >API提示：  
@@ -99,6 +105,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 网络活动指示器
 
 网络活动指示器在状态栏中出现，表示网络活动正在进行。
+
  ![image](images/network_activity_indicator_7_2x.png)
  
 >API提示：  
@@ -113,6 +120,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 页面控件
 
 页面控件告诉用户当前共打开了多少个视图，还有他们正停留在哪一个视图。
+
  ![image](images/page_control_weather_2x.png)
  
 >API提示：  
@@ -134,7 +142,9 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 选择器
 
 选择器展示了一组值，用户可以从中选择一个。
+
  ![image](images/picker_2x.png)
+ 
 >API提示：若想要了解如何在代码中定义选择器，请参考[UIPickerView Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPickerView_Class/index.html#//apple_ref/doc/uid/TP40006842).  
 
 选择器：
@@ -152,6 +162,7 @@ iOS包含了两种信息按钮样式：适用于浅色内容上的深色按钮�
 ## 进度视图
 
 进度视图展示了任务或进程的进度（下图是iOS默认的邮件App的工具栏）。
+
  ![image](images/progress_view_2x.png)
  
 >API提示：  
@@ -173,6 +184,7 @@ iOS定义了两种进度视图样式：
 ## 刷新控件
 
 刷新控件执行用户触发的内容刷新——一个典型的例子，它常在表格中出现（下图展示的是iOS默认的邮件app的mailbox列表页）。
+
  ![image](images/refresh_control_2x.png)
  
 >API提示：  
@@ -194,6 +206,7 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 ## 分段控件
 
 分段控件是一组分段的线性集合，每一个分段的作用类似按钮，点击之后将切换到相应的视图。
+
  ![image](images/segmented_control_2x.png)
  
 >API提示：  
@@ -213,6 +226,7 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 ## 滑块
 
 滑块允许用户在一个限定范围内调整某个数值或进程(下图展示的是iOS设置中亮度设置的滑块，滑块的左边和右边均为自定义图形)。
+
  ![image](images/slider_2x.png)
  
 >API提示：  
@@ -235,6 +249,7 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 ## 步进器
 
 步进器可以以常数为幅度来增减当前数值。
+
  ![image](images/stepper_2x.png)
  
 >API提示：  
@@ -253,6 +268,7 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 ## 开关按钮
 
 一个开关按钮展示了两个互斥的选项或状态。  
+
 ![开启](images/switch_on_2x.png)    
 ![关闭](images/switch_off_2x.png)  
 
@@ -269,6 +285,7 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 ## 系统按钮
 
 系统按钮执行app中定义的行为。
+
  ![image](images/system_button_2x.png)
  
 >API提示：  
@@ -287,12 +304,14 @@ iOS 7 已经不再使用圆角矩形按钮，而是使用了新的系统按钮�
 -	标题不要太长。太长的标题会被截断，让用户难以理解其含义。
  
  ![image](images/phone_bordered_buttons_2x.png)
+
 合适的话，为内容区域内的系统按钮描边或者加入背景。大多数情况下，你可以通过定义一个清晰的按钮名称、选择一个不一样的标题颜色或提供上下文情景提示来让用户知道这是一个按钮而非普通文本。但在某些特定的内容区域内，为按钮描边或者添加背景颜色，让用户迅速地把注意力放到按钮上，也是必要的。  
 以iPhone为例，给数字按键添加圆形边框强化了用户拨电话号码时的心理模型，而拨号（Call）按钮的背景色让用户拥有了更明确的点击目标。
 
 ## 文本框
 
 文本框支持用户输入单行的文本。
+
  ![image](images/text_field_2x.png)
  
 >API提示：  
