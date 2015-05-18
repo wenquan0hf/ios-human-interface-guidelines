@@ -2,7 +2,7 @@
 
 多任务处理让人们可以在最近使用的应用之间进行快速切换。
 
-![multitasking_2x.png](/images/multitasking_2x.png)
+![multitasking_2x.png](images/multitasking_2x.png)
 
 为了支持这样的体验，多任务处理会让一款应用在用户切换离开后，在后台进入挂起状态。当用户切换回来时，应用可以快速重新启用，因为它无需重新加载 UI。人们使用多任务处理 UI( multitasking UI )（如上图）来选择一款最近使用了的应用。
 
