@@ -2,7 +2,7 @@
 
 应用中呈现的每一个词都是与用户的一次对话，利用这个机会保持清晰，并使用户在使用过程中感到舒适。
 
-![appropriate_terminology_2x.png](/images/appropriate_terminology_2x.png)
+![appropriate_terminology_2x.png](images/appropriate_terminology_2x.png)
 
 设置对于所有的用户来说都是一款必要的应用，尽量用简短，直接的语言来描述用户可以进行的操作。例如，在设置 > 免打扰中就很好的用通俗易懂语言向用户说明了不同选项会带来的效果，如果你使用了专业术语，那么对于初级用户来说将难以理解它们。
 
