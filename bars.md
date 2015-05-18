@@ -225,7 +225,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 |![image](images/UITabBarSearch_2x.png )|	搜索（Search）|	进入搜索模式|
 |![image](images/UITabBarTopRated_2x.png)|	最高评分（Top Rated）|	显示由用户产生的最高评分项目|
 
-## 搜索栏）
+## 搜索栏
 
 搜索栏可以接收用户输入的文本并将其作为一次搜索输入（如下图所示）。
 
