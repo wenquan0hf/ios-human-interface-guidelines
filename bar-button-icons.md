@@ -49,6 +49,6 @@ iOS 定义了很多标准的栏按钮的图标，如刷新、开始、增加及�
 
 如果你想要设计一个看起来与 iOS 的图标集类似的图标，那么在设计时为你的图标添加一条非常细的描边。对于细节丰富的图标，使用 2 像素的描边（高分辨率）会有较好的效果，而对与无过多细节的图标，可以使用 3 像素的描边。
 
-不论是何种样式的图标，都要严格按照 表 [](#table) 来创建自定义工具栏、导航栏、标签栏的图标。
+不论是何种样式的图标，都要严格按照 表 [1](#table) 来创建自定义工具栏、导航栏、标签栏的图标。
 
 不要在自定义的标签栏图标中包含文本，而是使用标签栏元素的 API 来为每一个标签设置标题（如 [initWithTitle:image:tag:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITabBarItem_Class/index.html#//apple_ref/occ/instm/UITabBarItem/initWithTitle:image:tag:)）。同时，使用标题调整 API 来调整标题的自动布局（如 [setTitlePositionAdjustment:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITabBarItem_Class/index.html#//apple_ref/occ/instm/UITabBarItem/setTitlePositionAdjustment:)）。
