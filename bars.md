@@ -1,6 +1,6 @@
 # 栏
 
-## 状态栏（The Status Bar）
+## 状态栏
 
 状态栏显示了设备和当前环境的重要信息（在 iphone 上显示如下）。
 
@@ -39,7 +39,7 @@
 **在适当的时候展示网络活动指示器。**网络活动指示器可以出现在状态栏中，以向用户显示长时间的网络接入状态。如需了解如何在代码中执行实现这样的指示器，请参考 [Network Activity Indicator](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW44)。
 
 
-## 导航栏（Navigation Bar）
+## 导航栏
 
 导航栏能够实现在应用不同信息层级结构间的导航，有时候也可用于管理当前屏幕内容。
 
@@ -100,7 +100,7 @@
 
 ![image](images/nav_bar_hidden_2x.png)
 
-## 工具栏（Toolbar）
+## 工具栏
 
 工具栏包含了对页面或视图中对象进行操作的控件。
 
@@ -128,7 +128,7 @@
 **确保文本标题之间有足够间隔。**如果在工具栏中两个或更多按钮之间没有足够的间隔，按钮上的文字就会被挤到一起，而这会让用户很难区分它们。如果工具栏里按钮的标题看起来太近，可以使用 [UIBarButtonSystemItemFixedSpace] 在它们之间增加适当的间距。（如需了解更多信息，请参阅 [UIBarButtonItem Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/doc/uid/TP40007519)）。
 
 
-## 工具栏和导航栏按钮（Toolbar and Navigation Bar Buttons）
+## 工具栏和导航栏按钮
 
 iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在了内置应用当中。如需了解如何设计自定义的条栏目图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。工具栏和导航栏上的项目可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/occ/instp/UIBarButtonItem/tintColor) 属性着色。
 
@@ -162,7 +162,7 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 ![image](images/info_button_2x.png)
 
-## 标签栏（Tab Bar）
+## 标签栏
 
 标签栏赋予了用户在不同子任务、视图和模态之间切换的能力。
 
@@ -199,7 +199,7 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 **尽可能横屏竖屏都显示一样的标签。**横屏竖屏都显示相同的标签可以给用户一种应用的视觉稳定感。横屏方向时，你应该将同样的标签沿屏幕宽度居中。
 
-## 标签栏图标（Tab Bar Icons）
+## 标签栏图标
 
 iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计自定义标签栏图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。标签栏图标可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/tintColor)属性着色。
 
@@ -208,7 +208,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 >要点  
 和所有标准按钮盒图标一样，你需要根据按钮的语义含义去决定其用途，而不是外观。这会让你的应用的界面符合直觉，即使是相关含义的图标外观被改变了。
 
-表37-2 用于标签栏的标准标签图标
+下表用于标签栏的标准标签图标
 
 |按钮	|名称	|含义   |
 |:--------|:----------|:-----------|:----------|	
@@ -225,7 +225,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 |![image](images/UITabBarSearch_2x.png )|	搜索（Search）|	进入搜索模式|
 |![image](images/UITabBarTopRated_2x.png)|	最高评分（Top Rated）|	显示由用户产生的最高评分项目|
 
-## 搜索栏（Search Bar）
+## 搜索栏）
 
 搜索栏可以接收用户输入的文本并将其作为一次搜索输入（如下图所示）。
 
@@ -271,7 +271,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 
 ![image](images/search_bar_minimal_2x.png)
 
-## 范围栏（Scope Bar）
+## 范围栏
 
 范围栏随搜索栏一起出现，它允许用户定义搜索范围。
 
