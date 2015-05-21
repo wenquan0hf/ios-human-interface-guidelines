@@ -4,7 +4,7 @@
 
 每一个应用都应该有一个好看的标志。人们仅凭你应用的标志，来建立他们关于你应用品质、用途和可靠性的第一印象并不奇怪。
 
-![app_icon_gallery_2x.png](/images/app_icon_gallery_2x.png)
+![app_icon_gallery_2x.png](images/app_icon_gallery_2x.png)
 
 以下是一些你需要在设计你应用标志的时候注意的事情，当你准备开始设计时，可以参看[ App Icon ](app-icon.md)获得更详细的指南和说明：
 
@@ -16,13 +16,13 @@
 
 iOS 提供了很多小标志，用来代表一般的任务或者内容类型，例如代表 fe 分页栏，工具栏，或者导航栏中的元件。尽可能多的使用系统内置的块标志，因为用户对他们很熟悉因此会知道它们的含义。
 
-![bar-icons_2x.png](/images/bar-icons_2x.png)
+![bar-icons_2x.png](images/bar-icons_2x.png)
 
 如果你需要代表一些自定义的操作或者内容类型，你需要创建自定义块标志。设计这些小巧的流线型标志与设计一个应用标志是非常不同的，如果你需要设计自定义块标志，参见[ Bar Button Icons ](bar-button-icons.md)了解更多内容。
 
 注意到你可以使用文本来代替标志，来代表导航栏或者工具栏中元件。例如，日历应用使用“ Today ”，“ Calendars ”，“ Inbox ”，来代替工具栏中的标志。
 
-![text_in_toolbar_2x.png](/images/text_in_toolbar_2x.png)
+![text_in_toolbar_2x.png](images/text_in_toolbar_2x.png)
 
 为了帮助你选择为你的应用使用标志还是文本，你可以考虑一下在屏幕上可以同时显示的标志数目。同时在屏幕上显示太多标志，会令你的应用看起来很难明白如何使用。另外，在水平排列下使用标志可能与预期会有不同的效果，因为水平排列规则的环境会在导航栏中为文字预留更多空间。
 
