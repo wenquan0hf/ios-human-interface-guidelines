@@ -18,4 +18,4 @@
 
 **在合适的地方给用户提供额外的打印选择。**例如，你可以允许用户选择打印页码或打印多份。
 
-**如果用户不能打印，不要显示打印用的 UI 图标。**却确保知道用户的设备是否支持打印功能，如果不能，就不要显示打印图标。想了解更多关于如何写这部分的代码，请点击 [UIPrintInteractionController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPrintInteractionController_Class/index.html#//apple_ref/doc/uid/TP40010141)
+**如果用户不能打印，不要显示打印用的 UI 图标。**确保知道用户的设备是否支持打印功能，如果不能，就不要显示打印图标。想了解更多关于如何写这部分的代码，请点击 [UIPrintInteractionController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIPrintInteractionController_Class/index.html#//apple_ref/doc/uid/TP40010141)
