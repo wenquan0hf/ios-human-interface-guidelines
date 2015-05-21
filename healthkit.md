@@ -1,6 +1,6 @@
 # 健康组件 
 
-在 iOS8 及之后的版本中，开发者开发的有健康组件的 app 可以直接从“健康”应用中获取数据，这会给用户提供更加有效的健康服务。
+在 iOS 8 及之后的版本中，开发者开发的有健康组件的 app 可以直接从“健康”应用中获取数据，这会给用户提供更加有效的健康服务。
 
 例如，用户可以将一个与营养搭配相关的 app 与“健康”应用连接，该 app 便可以获取用户的体重和活动数据，这会帮助此营养应用给用户提供每天应摄入的卡路里以便能完成用户的预期目标。此营养应用也可以通过使用健康组件来更新“健康”应用中的数据，以便用户能轻松的查看他们的进度，想了解更多关于如何将健康组件置入进你的 app，请点击 [HealthKit Framework Reference](https://developer.apple.com/library/ios/documentation/HealthKit/Reference/HealthKit_Framework/index.html#//apple_ref/doc/uid/TP40014707)。
 
