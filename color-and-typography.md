@@ -43,7 +43,7 @@
 
 **文本尺寸的响应式变化要优先考虑文本内容。**对用户来说，并不是所有的内容都是同样重要的。当用户选择一个更大的字体大小时，他们是想要自己关心的内容更容易阅读；并不是想屏幕上的每一个字都变大。
 
-![mail_message_axlarge_2x.png](/images/mail_message_axlarge_2x.png)
+![mail_message_axlarge_2x.png](images/mail_message_axlarge_2x.png)
 
 例如，当用户选择具备更大易用性的文本尺寸时，邮件通常会把主题和正文用较大的字体显示出来，而一些不那么重要的文本，比如日期、收件人等则采用较小的字体显示。
 
@@ -67,8 +67,8 @@
 
 推荐版
 
-![font_choice_rec_2x.png](/images/font_choice_rec_2x.png)
+![font_choice_rec_2x.png](images/font_choice_rec_2x.png)
 
 不推荐版
 
-![font_choice_not-rec_2x.png](/images/font_choice_not-rec_2x.png)
+![font_choice_not-rec_2x.png](images/font_choice_not-rec_2x.png)
