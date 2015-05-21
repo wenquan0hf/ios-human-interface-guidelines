@@ -128,7 +128,7 @@
 **确保文本标题之间有足够间隔。**如果在工具栏中两个或更多按钮之间没有足够的间隔，按钮上的文字就会被挤到一起，而这会让用户很难区分它们。如果工具栏里按钮的标题看起来太近，可以使用 [UIBarButtonSystemItemFixedSpace] 在它们之间增加适当的间距。（如需了解更多信息，请参阅 [UIBarButtonItem Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/doc/uid/TP40007519)）。
 
 
-## 工具栏和导航栏按钮（Toolbar and Navigation Bar Buttons）
+## 工具栏和导航栏按钮
 
 iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在了内置应用当中。如需了解如何设计自定义的条栏目图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。工具栏和导航栏上的项目可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIBarButtonItem_Class/index.html#//apple_ref/occ/instp/UIBarButtonItem/tintColor) 属性着色。
 
@@ -162,7 +162,7 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 ![image](images/info_button_2x.png)
 
-## 标签栏（Tab Bar）
+## 标签栏
 
 标签栏赋予了用户在不同子任务、视图和模态之间切换的能力。
 
