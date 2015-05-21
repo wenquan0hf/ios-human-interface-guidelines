@@ -11,8 +11,8 @@
 
 **以精炼的、不唐突的方式植入品牌。**用户使用你的应用程序是完成某件事或是进行娱乐，他们不想感觉像是在被迫观看广告。为了营造最佳的用户体验，你可以通过选择字体，颜色和图像潜移默化地提醒用户你的品牌形象。
 
-![branding_r_2x.png](/images/branding_r_2x.png)
-![branding_nr_2x.png](/images/branding_nr_2x.png)
+![branding_r_2x.png](images/branding_r_2x.png)
+![branding_nr_2x.png](images/branding_nr_2x.png)
 
 **避免远离用户关心的内容。**例如，在屏幕顶部展示一个二级栏目，仅仅用来展示品牌资产而不做任何事，而这意味着更少的空间来显示内容。相反，按照用户的内容，考虑低侵入性的方式无所不在地展示你的品牌，比如使用一个自定义的颜色或字体，或巧妙地定制屏幕背景等方式。
 
