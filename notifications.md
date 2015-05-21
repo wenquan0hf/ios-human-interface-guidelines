@@ -6,11 +6,11 @@
 
 最近视图显示了一个可编辑部件列表。最近窗口部件是一个应用扩展，它显示了少量及时和重要的信息或功能，这些信息或功能则是由用户所关注的应用所提供。举例来说，日历窗口部件只显示了当天的事件。点击其中的一个事件可以唤起日历应用，去打开该事件，用户接下来便可以在日历应用中编辑该事件或管理其他的事件。
 
-![notification_ctr_today_2x.png](/images/notification_ctr_today_2x.png)
+![notification_ctr_today_2x.png](images/notification_ctr_today_2x.png)
 
 通知视图会显示那些用户感兴趣的应用所发出的最新通知。用户可以访问设置（Settings）中相应应用的部分来设置是否要在通知中心显示该应用的通知。
 
-![notification_ctr_notifications_2x.png](/images/notification_ctr_notifications_2x.png)
+![notification_ctr_notifications_2x.png](images/notification_ctr_notifications_2x.png)
 
 当用户感兴趣的事件发生时，iOS 应用可以通过通知让用户知道，例如：
 
@@ -41,23 +41,23 @@ iOS 定义了两种类型的通知。
 
 **横条（banner）**是一个小而透明的视图，会出现在屏幕顶部并在几秒后消失。用户还可以在锁屏中以及通知中心的通知视图中，看到相应形式的横条。在横条中，iOS会显示通知的内容和应用的小图标（欲了解更多关于小图标的内容，请参见 [应用图标](app-icon.md))。用户点击横条来解除它并切换到发送该通知的应用。
 
-![notif_ctr_banner_2x.png](/images/notif_ctr_banner_2x.png)
+![notif_ctr_banner_2x.png](images/notif_ctr_banner_2x.png)
 
 除了默认的点击动作之外，当用户轻扫横条时,你还可以定义两个动作按钮。点击通知动作按钮来隐藏横条的显示并启动你的应用（可能是在后台）来执行动作。
 
-![notif_ctr_banner_actions_2x.png](/images/notif_ctr_banner_actions_2x.png)
+![notif_ctr_banner_actions_2x.png](images/notif_ctr_banner_actions_2x.png)
 
 **通知提示框（ alert ）**是显示在屏幕上的标准提示框视图，需要与用户交互后才会隐藏。当用户点击Options按钮后，你需要提供并显示通知消息和一个默认动作，或最多四个特定动作。提示框的背景样式不能做修改。
 
-![notif_ctr_alert_2x.png](/images/notif_ctr_alert_2x.png)
+![notif_ctr_alert_2x.png](images/notif_ctr_alert_2x.png)
 
 当用户点击提示框中的一个默认或自定义动作按钮,与此同时 iOS 会解除提示框并运行你的应用（可能是在后台）。点击关闭或确定按钮会在不用打开应用的情况下解除提示框。
 
-![notif_ctr_alert_actions_2x.png](/images/notif_ctr_alert_actions_2x.png)
+![notif_ctr_alert_actions_2x.png](images/notif_ctr_alert_actions_2x.png)
 
 **小气泡（ badge ）**是一个显示未读通知数量的红色小圆（小气泡显示在应用图标的右上角）。小气泡的大小和颜色不能做修改。
 
-![notif_ctr_badge_2x.png](/images/notif_ctr_badge_2x.png)
+![notif_ctr_badge_2x.png](images/notif_ctr_badge_2x.png)
 
 横幅、警告框和小气泡这三种通知都可以使用自定义或系统提供的**声音。**
 
