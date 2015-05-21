@@ -4,7 +4,7 @@
 
 ![image](images/uikit_ui_elements_2x.png)
 
-UIKit 提供的 UI 组件大致分成以下 4 大类：
+UIKit 提供的 UI 组件大致分成以下4大类：
 
 - **栏：**包含了导航信息，告诉用户他们所在的位置并包含了一些能帮助用户浏览或启动某些操作的控制按钮。
 - **内容视图：**包含了应用的主体内容以及某些操作行为，比如滚动、插入、删除、排序等等。
@@ -25,4 +25,6 @@ UIKit 提供的 UI 组件大致分成以下 4 大类：
 
 >注意  
 一个 iOS 应用程序包含一个窗口。但是，不同于计算机程序中的窗口，iOS 窗口没有可见的部分并且不能在屏幕上被移动到另一个位置。很多 iOS 应用程序只有一个窗口；可以支持外部显示设备器的应用程序可以有不止一个窗口。
+
+在 iOS Human Interface Guidelines 中，screen 这个词和大部分用户理解的一样。作为一个开发者，你也许需要读一下其他与 [UIscreen](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIScreen_Class/index.html#//apple_ref/occ/cl/UIScreen) 相关的章节，这样你可以更好的了解如何关联外部屏幕。
 

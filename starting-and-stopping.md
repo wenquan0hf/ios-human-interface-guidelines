@@ -8,7 +8,7 @@
 >
 >不要在用户安装完你的 app 后要求他们重启设备。重启会占据用户的时间并且会显得你的 app 看起来不可信又难以使用。
 >
->如果你的 app 有内存使用方面的问题，不重启就难以流畅运行，那么你需要声明这些问题
+>如果你的 app 有内存使用方面的问题，不重启就难以流畅运行，那么你需要声明这些问题，关于如何开发一个能流畅运行的 app，请点击 [Use Memory Efficiently](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/PerformanceTips/PerformanceTips.html#//apple_ref/doc/uid/TP40007072-CH7-SW8)
 
 **尽可能不使用闪屏等启动效果。**最好可以令用户快速启动你的 app。
 
@@ -44,13 +44,13 @@
 
 >**提示**
 >
->仅支持横屏的 app 最好可以支持两种方向的横屏，即 Home 键在左侧和右侧。如果设备此时已经是横屏状态，那么该 app 就应该在那个方向启动，除非你有一个更好理由不这样做。其他情况时，建议按 Home 键处于右侧的方式启动应用。
+>仅支持横屏的 app 最好可以支持两种方向的横屏，即 Home 键在左侧和右侧。如果设备此时已经是横屏状态，那么该 app 就应该在那个方向启动，除非你有一个更好理由不这样做。其他情况时，建议按 Home 键处于右侧的方式启动应用。（想了解更多关于如何支持不同的设备方向，请点击 [适用性和布局](adaptivity-and-layout.md)）
 
 **准备一个启动图像。**ios 会在你的 app 启动时展示一个启动图像，这既能给用户一个关于你的 app 的印象，也能给 app 一段加载内容的时间。
 
 **尽可能不要让用户在初次使用时就阅读免责声明或确认用户协议。**你可以让 App Store 展示你的免责声明或用户协议，这样用户可以在下载前就看到它们。如果你一定要在你的 app 中显示这些内容，请确保它们与你的 UI 和谐并且能与用户需求间达到一个平衡。
 
-**当你的 app 重新启动时，读取用户离开时的状态信息以便他们可以继续使用。**用户不需要记住之前的状态。
+**当你的 app 重新启动时，读取用户离开时的状态信息以便他们可以继续使用。**用户不需要记住之前的状态。想了解更多关于保存和读取 app 状态的有效方法，请点击 [Preserving Your App’s Visual Appearance Across Launches](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/StrategiesforImplementingYourApp/StrategiesforImplementingYourApp.html#//apple_ref/doc/uid/TP40007072-CH5-SW2)
 
 ## 时刻准备停止
 
@@ -59,9 +59,9 @@
 当用户离开了你的 app 时，ios 的多任务功能会将它转换到后台，并且用新 app 的 UI 替换它的 UI。为了适应这种情况，你的 app 需要做到以下几点：
 
 * **尽快且尽可能合理的保存用户数据。**因为后台的 app 有可能在任何时候被退出。
-* **当应用停止时保存当前状态的细节。**这要的话，当用户回到你的 app 时，可以继续之前的操作。例如，如果你的 app 支持滑动查看数据，就保存当前的滑动位置。
+* **当应用停止时保存当前状态的细节。**这要的话，当用户回到你的 app 时，可以继续之前的操作。例如，如果你的 app 支持滑动查看数据，就保存当前的滑动位置。想了解更多关于保存和读取 app 状态的有效方法，请点击 [Preserving Your App’s Visual Appearance Across Launches](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/StrategiesforImplementingYourApp/StrategiesforImplementingYourApp.html#//apple_ref/doc/uid/TP40007072-CH5-SW2)
 
-有些 app 在后台也会继续运行，即使此时用户在运行另外的 app。例如，当用户听音乐时，他们也可以查看未做事项清单或者玩游戏。
+有些 app 在后台也会继续运行，即使此时用户在运行另外的 app。例如，当用户听音乐时，他们也可以查看未做事项清单或者玩游戏。想了解更多关于如何正确的使用多任务功能，请点击 [多任务处理](multitasking.md)
 
 **不要强制让程序退出。**强制退出会让用户以为这是个意外。如果你的 app 发生了一些预料之外的事，你需要告诉用户这个情况，并且解释该如何做。这里是两个很好的方法：
 

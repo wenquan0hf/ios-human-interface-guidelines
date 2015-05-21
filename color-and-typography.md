@@ -4,7 +4,7 @@
 
 在 iOS 系统中，颜色用于表达互动性，传递活性，并提供视觉的连续性。内置的应用程序会使用那些看起来更有个性，纯净，干净的颜色，无论单独还是组合，还是在明或暗的背景下都看起来很不错。
 
-![color_family_a_2x.png](images/color_family_a_2x.png)
+![color_family_a_2x.png](/images/color_family_a_2x.png)
 
 **如果你想要创建多样自定义颜色，要确保他们可以很好地搭配在一起。**例如，如果你的应用程序主色调偏柔和，那么就应该建立一个协调的柔和色调的色板用于整个应用程序。
 
@@ -15,9 +15,9 @@
 **当你使用自定义的栏颜色时，要着重考虑半透明的栏和应用内容。**如果你需要创建一个色彩栏去匹配特的颜色，比如现有品牌的颜色，你可能不得不在得到你想要的结果前使用各种颜色进行试验。条栏的外观会受 iOS 系统提供的半透明和隐藏在栏后面的应用程序的内容显示影响。
 
 >API 注释
- 使用浅色（TintColor）的属性值给予栏按钮颜色，使用栏浅色（BarTintColor）的属性值为栏本身赋色。
+ 使用浅色（TintColor）的属性值给予栏按钮颜色，使用栏浅色（BarTintColor）的属性值为栏本身赋色。欲了解更多关于栏属性的内容，可参见[UINavigationBar Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UINavigationBar_Class/index.html#//apple_ref/doc/uid/TP40006887)，[UITabBar Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITabBar_Class/index.html#//apple_ref/doc/uid/TP40007521)，[UIToolbar Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIToolbar_Class/index.html#//apple_ref/doc/uid/TP40006927)和 [UISearchBar Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISearchBar_Class/index.html#//apple_ref/doc/uid/TP40007529)。
 
-**要注意颜色的盲区。**大多数色盲的人很难区分红色和绿色。需要测试你的应用程序，以确保没有用红色和绿色来作为区分两种状态或值之间的唯一途径的地方。一些图像编辑软件或工具，可以帮助你验证颜色的盲区。在一般情况下，使用多种方式来表示原色的交互性是一个好方法。
+**要注意颜色的盲区。**大多数色盲的人很难区分红色和绿色。需要测试你的应用程序，以确保没有用红色和绿色来作为区分两种状态或值之间的唯一途径的地方。一些图像编辑软件或工具，可以帮助你验证颜色的盲区。在一般情况下，使用多种方式来表示原色的交互性是一个好方法（了解更多iOS系统中关于表征交互性的内容，请看[互动元素Interactive Elements Invite Touch](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/InteractivityInput.html#//apple_ref/doc/uid/TP40006556-CH55-SW4))。
 
 **选择一个基准的颜色来表征交互性和状态。**在内置的应用程序的基准色包括备忘录中的黄色还有日历中的红色等。如果你定义了一个表明互动性和状态的基准色，要确保你的应用程序中的其他颜色不会与其发生冲突。
 
@@ -39,9 +39,11 @@
  
 >注意：如果你使用了自定义字体，你仍然可以通过系统提供的设置来调整大小。并且你的应用还应该在用户调整设置时做出合适的响应。
 
+对你而言，采用动态类型需要做的一些工作。要学习如何使用文本样式，并确保当用户更改文字大小的设置时，你的应用程序可以获取通知，可以参考[文本样式Text Styles](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/CustomTextProcessing/CustomTextProcessing.html#//apple_ref/doc/uid/TP40009542-CH4-SW65)。
+
 **文本尺寸的响应式变化要优先考虑文本内容。**对用户来说，并不是所有的内容都是同样重要的。当用户选择一个更大的字体大小时，他们是想要自己关心的内容更容易阅读；并不是想屏幕上的每一个字都变大。
 
-![mail_message_axlarge_2x.png](images/mail_message_axlarge_2x.png)
+![mail_message_axlarge_2x.png](/images/mail_message_axlarge_2x.png)
 
 例如，当用户选择具备更大易用性的文本尺寸时，邮件通常会把主题和正文用较大的字体显示出来，而一些不那么重要的文本，比如日期、收件人等则采用较小的字体显示。
 
@@ -61,12 +63,12 @@
 
 * 文字应使用常规或中等重量；不应使用轻的或加粗字体。
 
-**在一般情况下，整个应用程序应使用一种单一的字体。**多种不同的字体混杂使用会使得应用程序显得草率而支离破碎。相反，使用一个字体和几种样式和尺寸。根据语义用法，使用界面字体的文本样式 API 来定义不同区域的文本样式，如正文或者标题。
+**在一般情况下，整个应用程序应使用一种单一的字体。**多种不同的字体混杂使用会使得应用程序显得草率而支离破碎。相反，使用一个字体和几种样式和尺寸。根据语义用法，使用使用[界面字体](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIFont_Class/index.html#//apple_ref/occ/cl/UIFont)的文本样式 API 来定义不同区域的文本样式，如正文或者标题。
 
 推荐版
 
-![font_choice_rec_2x.png](images/font_choice_rec_2x.png)
+![font_choice_rec_2x.png](/images/font_choice_rec_2x.png)
 
 不推荐版
 
-![font_choice_not-rec_2x.png](images/font_choice_not-rec_2x.png)
+![font_choice_not-rec_2x.png](/images/font_choice_not-rec_2x.png)
