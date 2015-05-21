@@ -41,7 +41,7 @@ iOS 可以帮助用户创建并管理文件，但并不代表用户必须考虑 
 
 例如, Pages 应用在图形化显示库文件的同时，还为用户提供了创建新文件的简单方式：
 
-![document_library_2x.png](/images/document_library_2x.png)
+![document_library_2x.png](images/document_library_2x.png)
 
 >提示：即使你的应用不能打开文件，你也可以通过提供快速预览功能让用户可以预览内容。
 
