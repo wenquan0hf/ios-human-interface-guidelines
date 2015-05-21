@@ -14,7 +14,7 @@
 - 
 为了更好的发挥使用标准 UI 部件的优势，以下这些十分关键：
 
-**遵从每一个 UI 元素的指南。**当 UI 元素的外观和作用都像用户熟悉的那样时，用户之前的经验可以帮助他们在你的应用中使用这些部件。更多 UI 元素指南，参考 [Bars](bars.md), [Content Views](content-views.md), [Controls](controls.md)和[Temporary Views](temporary-views.md)
+**遵从每一个 UI 元素的指南。**当 UI 元素的外观和作用都像用户熟悉的那样时，用户之前的经验可以帮助他们在你的应用中使用这些部件。更多 UI 元素指南，参考 [Bars](bars.md), [Content Views](content-views.md), [Controls](controls.md) 和[Temporary Views](temporary-views.md)
 
 **不要混用不同版本的 iOS 中的 UI 部件风格。** 使用看起来不像当前设备运行的 iOS 版本而像是来自其他版本的 UI 部件，会使用户感到困惑，而这并不是你希望看到的。
 
