@@ -1,6 +1,6 @@
 # 栏
 
-## 状态栏（The Status Bar）
+## 状态栏
 
 状态栏显示了设备和当前环境的重要信息（在 iphone 上显示如下）。
 
@@ -39,7 +39,7 @@
 **在适当的时候展示网络活动指示器。**网络活动指示器可以出现在状态栏中，以向用户显示长时间的网络接入状态。如需了解如何在代码中执行实现这样的指示器，请参考 [Network Activity Indicator](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Controls.html#//apple_ref/doc/uid/TP40006556-CH15-SW44)。
 
 
-## 导航栏（Navigation Bar）
+## 导航栏
 
 导航栏能够实现在应用不同信息层级结构间的导航，有时候也可用于管理当前屏幕内容。
 
@@ -100,7 +100,7 @@
 
 ![image](images/nav_bar_hidden_2x.png)
 
-## 工具栏（Toolbar）
+## 工具栏
 
 工具栏包含了对页面或视图中对象进行操作的控件。
 
@@ -199,7 +199,7 @@ iOS 提供了大量的标准工具栏和导航栏按钮，这些按钮被用在�
 
 **尽可能横屏竖屏都显示一样的标签。**横屏竖屏都显示相同的标签可以给用户一种应用的视觉稳定感。横屏方向时，你应该将同样的标签沿屏幕宽度居中。
 
-## 标签栏图标（Tab Bar Icons）
+## 标签栏图标
 
 iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计自定义标签栏图标，请参阅 [Bar Button Icons](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/BarIcons.html#//apple_ref/doc/uid/TP40006556-CH21-SW1)。标签栏图标可以使用 [tintColor](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/tintColor)属性着色。
 
@@ -225,7 +225,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 |![image](images/UITabBarSearch_2x.png )|	搜索（Search）|	进入搜索模式|
 |![image](images/UITabBarTopRated_2x.png)|	最高评分（Top Rated）|	显示由用户产生的最高评分项目|
 
-## 搜索栏（Search Bar）
+## 搜索栏
 
 搜索栏可以接收用户输入的文本并将其作为一次搜索输入（如下图所示）。
 
@@ -271,7 +271,7 @@ iOS 为标签栏提供了标准图标，见表 37-2。如需了解如何设计�
 
 ![image](images/search_bar_minimal_2x.png)
 
-## 范围栏（Scope Bar）
+## 范围栏
 
 范围栏随搜索栏一起出现，它允许用户定义搜索范围。
 
