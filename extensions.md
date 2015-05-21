@@ -2,9 +2,9 @@
 
 应用扩展可以拓展应用的使用范围。当用户使用其他应用时，应用扩展使得他们仍然可以使用你的应用的部分功能。例如，当用户使用 Safari 浏览网页时，他们可以使用分享扩展来发送图片或分享文章到你的社交网站应用上；或者当他们使用照片应用时，可能会使用你的图片编辑扩展，来为一张图片加上滤镜效果。（在这些场景中，Safari 和照片应用为用户提供了拓展途径，因而被称为主应用（ host apps ）。）
 
-你通过将应用扩展包含在一个功能完整的ios 应用中实现，而同时这个iOS 应用也是你 提交给 Apple Store 的。（包含扩展的应用被称为容器应用（ containing app ））。在启用扩展之后，人们就可以在使用其他应用的同时，通过扩展执行快速任务。例如，在邮件中浏览某个商品时，人们可以不用离开邮件应用就使用你的动作扩展，把商品添加到购物清单中。
+你通过将应用扩展包含在一个功能完整的 ios 应用中实现，而同时这个 iOS 应用也是你 提交给 Apple Store 的。（包含扩展的应用被称为容器应用（ containing app ））。在启用扩展之后，人们就可以在使用其他应用的同时，通过扩展执行快速任务。例如，在邮件中浏览某个商品时，人们可以不用离开邮件应用就使用你的动作扩展，把商品添加到购物清单中。
 
-表 17-1 开发者可以创建的应用扩展种类表
+下表开发者可以创建的应用扩展种类表
 
 |应用扩展       |使用扩展说明|
 |:------------------|:-------------------------|
@@ -32,7 +32,7 @@
 
 人们会在通知中心的最近区中查看最近窗口部件（Today widgets）。由于用户会设置最近区令其显示他们最关注的信息，所以设计你的应用最近窗口部件时，应当以获取用户最关注信息中的一席之地为目标。
 
-![widget_experience_2x.png](/images/widget_experience_2x.png)
+![widget_experience_2x.png](images/widget_experience_2x.png)
 
 
 **设计与通知中心风格一致的外观。**当使用通知中心的默认边距和背景时，你的最近窗口部件就会带给用户统一的观感。为获得最佳的效果，你应该重点关注你的内容而不是背景或其他，尤其应该避免绘制一片纯色背景。
@@ -41,7 +41,7 @@
 
 **将部件内容与标题对齐。**当你的部件内容与标题对齐时，人们就可以很简单地浏览到他们想要的部件的当前视图。遵守当前视图中的边距规范，并将内容约束在如图的部件内容区内。
 
-![WidgetSpec_2x.png](/images/WidgetSpec_2x.png)
+![WidgetSpec_2x.png](images/WidgetSpec_2x.png)
 
 **一般情况下，使用白色的系统字体来显示文本。**在通知中心默认背景下白色文字会看起来较好。对于二级文本，可以使用系统提供的vibrant外观样式（查看[notificationCenterVibrancyEffect](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIVibrancyEffect/index.html#//apple_ref/occ/clm/UIVibrancyEffect/notificationCenterVibrancyEffect)了解更多）。
 
@@ -56,14 +56,14 @@
 
 >注意：虽然通过窗口部件打开应用是不错的用户体验，但持续在部件中提供有用且及时的信息依然很重要。用户不会喜欢一个功能只是打开相应应用的最近窗口部件。
 
-## 分享和动作扩展（Share and Action Extensions）
+## 分享和动作扩展
 
 人们通过点击应用中的动作按钮（Action button）来使用分享和动作扩展。在通过动作按钮显示的动作视图控制器（activity view controller）中，动作扩展被列在底部，分享扩展被列在动作扩展之上。人们可以使用更多（More）按钮来管理显示在动作视图控制器中的分享和动作扩展。
 
-![share_action_appex_2x.png](/images/share_action_appex_2x.png)
+![share_action_appex_2x.png](images/share_action_appex_2x.png)
 
-分享或动作扩展通常被认为是在当前用户场景下用来输入内容之用。例如，当在Safari中阅读一篇文章时，用户可能会点击动作按钮并使用一个分享扩展来发送这篇文章到分享网站上，也可能会使用一个动作扩展来查看这篇文章的翻译。
->注意：在动作视图控制器中，iOS只会显示支持当前内容类型的动作扩展。例如，当用户当前内容是视频时，iOS就不会显示支持文本的动作扩展。
+分享或动作扩展通常被认为是在当前用户场景下用来输入内容之用。例如，当在 Safari 中阅读一篇文章时，用户可能会点击动作按钮并使用一个分享扩展来发送这篇文章到分享网站上，也可能会使用一个动作扩展来查看这篇文章的翻译。
+>注意：在动作视图控制器中，iOS 只会显示支持当前内容类型的动作扩展。例如，当用户当前内容是视频时，iOS 就不会显示支持文本的动作扩展。
 
 **尽可能在分享扩展中使用系统提供的UI。**系统所提供的构造视图控制器（compose view controller）提供给用户一种一致的体验，并能自动支持一些常用任务，例如预览和确认标准项，同步内容，查看动态效果，以及完成一封邮件，欲知更多关于使用系统提供的撰写视图控制器，请参见 App Extension Programming Guide 中的[Share](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/ShareSheet.html#//apple_ref/doc/uid/TP40014214-CH12)。
 
@@ -72,32 +72,32 @@
 **为动作扩展使用单色的应用图标。**（与之相反，分享扩展则应该使用其容器应用的彩色应用图标。）当为动作扩展设计图标时，你可能需要从创建一个应用图标的模版开始着手。如有需要，可以只关注图标所特有的元素来简化设计。
 如果你在容器应用中提供了多个动作扩展，那么最好为他们设计一套图标，并确保这套图标中的每一个看起来都与容器应用的图标是关联的。
 
-## 图片编辑扩展（Photo Editing Extensions）
+## 图片编辑扩展
 
 当人们在照片（Photos）应用中查看图片或视频时，可以使用图片编辑扩展。一般来说，图片编辑扩展能帮助用户为图片添加滤镜或进行一些其他的图片或视频编辑。在用户保存了变更后，编辑过的内容就能照片应用中查看。
 照片应用提供了一个模态视图来显示你图片编辑扩展的自定义 UI 。当用户在确认取消对图片或视频的编辑时（你必须要在代码上确保可以进行这个操作），照片应用还可以显示一个确认视图。
 
 **避免在图片编辑扩展中使用导航栏。**如图所示，承载扩展的模态视图已经包含了导航栏，若再增加另一个导航栏，既会占据更多你的界面空间，还会使用户产生困扰。（照片应用默认会以全屏高度来显示你的视图，所以你的内容会出现在内建的导航栏之下。）
 
-![photo_filter_appex_2x.png](/images/photo_filter_appex_2x.png)
+![photo_filter_appex_2x.png](images/photo_filter_appex_2x.png)
 
 **如果可以，让用户能够预览编辑效果。**尽可能让用户在关闭扩展返回照片应用之前看到他们编辑的效果。
 
-## 文档提供器扩展（Document Provider Extensions）
+## 文档提供器扩展
 
 文档提供器扩展令用户可以在其他各种应用中查阅你的应用所管理的文档。在主应用（host app）中，文档采集视图控制器（document picker view controller）会显示你的扩展所提供的 UI（想要了解更多有关文档采集视图控制器的内容，请查阅[UIDocumentPickerViewController Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDocumentPickerViewController_Class/index.html#//apple_ref/doc/uid/TP40014342)）。
 
->注意：文档提供者扩展由两个不同的部分组成：文档采集视图控制器扩展和文件提供者扩展。文档采集视图控制器扩展包含了你的自定义UI，文件提供者扩展则实现对文件的访问。为了方便，本节所使用的术语文档提供者扩展（Document Provider extension）是用来描述扩展中，文档采集视图控制器部分的 UI 和体验。
+>注意：文档提供者扩展由两个不同的部分组成：文档采集视图控制器扩展和文件提供者扩展。文档采集视图控制器扩展包含了你的自定义 UI，文件提供者扩展则实现对文件的访问。为了方便，本节所使用的术语文档提供者扩展（Document Provider extension）是用来描述扩展中，文档采集视图控制器部分的 UI 和体验。
 
 **避免在文档提供者扩展中使用导航栏。**iOS会在文档采集视图控制器基于导航栏的界面内，显示你扩展的自定义 UI 。所以，在内建导航栏之下再显示第二个导航栏会使用户感到困惑，并且还会占据原本你的内容区域。（文档采集视图控制器默认会以全屏高度来显示你的视图，所以你的内容会出现在内建的导航栏之下。）
 
-![doc_provider_appex_2x.png](/images/doc_provider_appex_2x.png)
+![doc_provider_appex_2x.png](images/doc_provider_appex_2x.png)
 
-## 自定义输入法（Custom Keyboards）
+## 自定义输入法
 
 人们使用带有自定义键盘的输入法扩展来替换 iOS 自带的输入法。在启用输入法扩展之后，当人们点击绝大部分文本输入区域时就能使用自定义输入法。但可以使用自定义输入法的不包括受保护的文本区域（例如密码输入区）和电话键盘区（例如联系人中的电话号码区）。
 
-![alternate_keyboards_2x.png](/images/alternate_keyboards_2x.png)
+![alternate_keyboards_2x.png](images/alternate_keyboards_2x.png)
 
 **为用户提供明显的方式来切换输入法。**人们对于 iOS 的输入法切换按钮很熟悉，他们会期望在你的输入法中也有类似的体验。
 
