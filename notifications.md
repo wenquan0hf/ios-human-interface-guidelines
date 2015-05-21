@@ -6,11 +6,11 @@
 
 最近视图显示了一个可编辑部件列表。最近窗口部件是一个应用扩展，它显示了少量及时和重要的信息或功能，这些信息或功能则是由用户所关注的应用所提供。举例来说，日历窗口部件只显示了当天的事件。点击其中的一个事件可以唤起日历应用，去打开该事件，用户接下来便可以在日历应用中编辑该事件或管理其他的事件。
 
-![notification_ctr_today_2x.png](images/notification_ctr_today_2x.png)
+![notification_ctr_today_2x.png](/images/notification_ctr_today_2x.png)
 
 通知视图会显示那些用户感兴趣的应用所发出的最新通知。用户可以访问设置（Settings）中相应应用的部分来设置是否要在通知中心显示该应用的通知。
 
-![notification_ctr_notifications_2x.png](images/notification_ctr_notifications_2x.png)
+![notification_ctr_notifications_2x.png](/images/notification_ctr_notifications_2x.png)
 
 当用户感兴趣的事件发生时，iOS 应用可以通过通知让用户知道，例如：
 
@@ -23,7 +23,7 @@
 
 iOS 定义了两种类型的通知。
 
-- 本地通知（local notification）由应用安排待发送，最终通过 iOS 发送到同一设备中，而不用考虑该应用当前是否正在前台运行。例如，日历或待办事项应用可以安排一条本地通知来提醒人们一个即将到来的会议或者某个到期日。
+- 本地通知（local notification）由应用安排待发送，最终通过iOS发送到同一设备中，而不用考虑该应用当前是否正在前台运行。例如，日历或待办事项应用可以安排一条本地通知来提醒人们一个即将到来的会议或者某个到期日。
 - 远程通知（remote notification）（也称为推送通知（push notification））是由应用的远程服务器发送给苹果推送通知服务（），然后这类通知会被推送到所有安装了该应用的设备上。例如，一款在线竞技类的游戏，即一种用户可以在其中和远程玩家竞赛的游戏，可以更新所有玩家的最新状态。
 
 >注意：应用扩展可能会要求远程通知发送到它的容器应用中。在这种情况下，容器应用常常会在后台运行来处理通知。想要了解更多关于应用扩展的内容，请参见[应用扩展](extensions.md)。
@@ -39,25 +39,25 @@ iOS 定义了两种类型的通知。
 
 >注意：在 iOS8 及之后的版本中，你必须对所有你想发送给用户的通知类型进行注册。当你第一次进行注册操作时，用户会收到到一个警告，他们可以在其中操作决定接受或拒绝所有来自你应用的通知。无论用户这时的选择是什么，他们应始终能访问你应用的设置来更改此项偏好，或者设置他们想要接收的通知类型。
 
-**横条（banner）**是一个小而透明的视图，会出现在屏幕顶部并在几秒后消失。用户还可以在锁屏中以及通知中心的通知视图中，看到相应形式的横条。在横条中，iOS 会显示通知的内容和应用的小图标（欲了解更多关于小图标的内容，请参见 [应用图标](app-icon.md))。用户点击横条来解除它并切换到发送该通知的应用。
+**横条（banner）**是一个小而透明的视图，会出现在屏幕顶部并在几秒后消失。用户还可以在锁屏中以及通知中心的通知视图中，看到相应形式的横条。在横条中，iOS会显示通知的内容和应用的小图标（欲了解更多关于小图标的内容，请参见 [应用图标](app-icon.md))。用户点击横条来解除它并切换到发送该通知的应用。
 
-![notif_ctr_banner_2x.png](images/notif_ctr_banner_2x.png)
+![notif_ctr_banner_2x.png](/images/notif_ctr_banner_2x.png)
 
 除了默认的点击动作之外，当用户轻扫横条时,你还可以定义两个动作按钮。点击通知动作按钮来隐藏横条的显示并启动你的应用（可能是在后台）来执行动作。
 
-![notif_ctr_banner_actions_2x.png](images/notif_ctr_banner_actions_2x.png)
+![notif_ctr_banner_actions_2x.png](/images/notif_ctr_banner_actions_2x.png)
 
 **通知提示框（ alert ）**是显示在屏幕上的标准提示框视图，需要与用户交互后才会隐藏。当用户点击Options按钮后，你需要提供并显示通知消息和一个默认动作，或最多四个特定动作。提示框的背景样式不能做修改。
 
-![notif_ctr_alert_2x.png](images/notif_ctr_alert_2x.png)
+![notif_ctr_alert_2x.png](/images/notif_ctr_alert_2x.png)
 
 当用户点击提示框中的一个默认或自定义动作按钮,与此同时 iOS 会解除提示框并运行你的应用（可能是在后台）。点击关闭或确定按钮会在不用打开应用的情况下解除提示框。
 
-![notif_ctr_alert_actions_2x.png](images/notif_ctr_alert_actions_2x.png)
+![notif_ctr_alert_actions_2x.png](/images/notif_ctr_alert_actions_2x.png)
 
 **小气泡（ badge ）**是一个显示未读通知数量的红色小圆（小气泡显示在应用图标的右上角）。小气泡的大小和颜色不能做修改。
 
-![notif_ctr_badge_2x.png](images/notif_ctr_badge_2x.png)
+![notif_ctr_badge_2x.png](/images/notif_ctr_badge_2x.png)
 
 横幅、警告框和小气泡这三种通知都可以使用自定义或系统提供的**声音。**
 
@@ -80,7 +80,7 @@ iOS 定义了两种类型的通知。
 
 >注意：在必要的情况下，iOS 会缩短你的消息以便能在各种通知发送样式下显示；为了最好的效果，你不应主动缩减你的消息。
 
-**保持气泡内容总是最新。**在用户已经处理了新消息时，如何及时的更新气泡就显得尤为重要，这样才不会让用户以为又有额外的新消息到达。注意，当小气泡内容设置为 0 时，也会导致通知中心中相应的通知项被移除。
+**保持气泡内容总是最新。**在用户已经处理了新消息时，如何及时的更新气泡就显得尤为重要，这样才不会让用户以为又有额外的新消息到达。注意，当小气泡内容设置为0 时，也会导致通知中心中相应的通知项被移除。
 
 >重要：不要将小气泡用作通知以外的其他用途。记住，用户能够关闭应用的小气泡，这时你将无法确定他们是否看到了小气泡中的内容。
 

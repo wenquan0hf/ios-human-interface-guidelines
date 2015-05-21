@@ -19,4 +19,4 @@
 当用户在你的输入页面中点击自定义控件时，使用标准的键盘敲击声提供声音反馈。
 欲了解在代码中如何使用这一声音，参见 [UIDevice Class Reference](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/index.html#//apple_ref/doc/uid/TP40006902) 文件中的 [playInputClick](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/index.html#//apple_ref/occ/instm/UIDevice/playInputClick) 章节
 
->注意：标准的敲击音效只适用于当前屏幕上的自定义输入页面。人们可以在设置-声音中关闭所有的键盘音效——包括你的自定义输入页面中的那些。
+`注意：标准的敲击音效只适用于当前屏幕上的自定义输入页面。人们可以在设置-声音中关闭所有的键盘音效——包括你的自定义输入页面中的那些。`
